@@ -1,0 +1,31 @@
+\renewcommand{\thechapter}{A}
+\stepcounter{chapter}
+\def\theequation{A.\arabic{section}.\arabic{equation}}
+\makeatletter
+\@addtoreset{equation}{section}
+\makeatother
+\chapter*{Appendix}
+\addcontentsline{toc}{chapter}{Appendix}
+
+
+\section{Bethe-Bloch Formula}
+Energy loss calculation for 
+
+\section{Equivalent Photon Method}
+considering multipolarity, 
+\begin{displaymath}
+    n_{\pi l}(\omega)=Z^{2}_{1} \alpha \frac{l[(2l+1)]!!^{2}}{(2\pi)^{3}(l+1)}\sum_{m}\Big|G_{\pi l m}\big( \frac{c}{v}\big) \Big|^{2} g_{m}(\xi)
+\end{displaymath} \\
+equivalent photon number for E1 excited projectile.
+\begin{displaymath}
+    n_{E1}(\omega)=n_{E1, m=-1}+n_{E1, m=0}+n_{E1, m=+1}=\frac{2}{\pi}Z^{2}_{1}\alpha\Big(\frac{c}{v}\Big)^{2}\Big[\xi K_{0}(\xi)K_{1}(\xi)-\frac{v^{2}\xi^{2}}{2c^{2}}(K^{2}_{1}(\xi)-K^{2}_{0}(\xi)\Big]
+\end{displaymath}
+with $\xi=E_{\gamma}R/\gamma \nu \hbar$\\
+$E_{\gamma}$: Photon energy( $E_{\gamma}=\omega\hbar$ )\\
+$Z_{1}$: Atomic number of target\\
+$R$: impact parameter ( 1.3 )\\
+
+
+\section{Cross section extraction}
+
+
