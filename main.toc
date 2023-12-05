@@ -1,0 +1,64 @@
+\contentsline {chapter}{List of Figures}{5}{}%
+\contentsline {chapter}{List of Tables}{7}{}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{}%
+\contentsline {chapter}{\numberline {2}Experimental Methods}{3}{}%
+\contentsline {section}{\numberline {2.1}Soft E1 Excitation in Neutron Halo Nuclei}{3}{}%
+\contentsline {section}{\numberline {2.2}Coulomb Dissociation}{3}{}%
+\contentsline {subsection}{\numberline {2.2.1}Invariant Mass Method}{3}{}%
+\contentsline {subsection}{\numberline {2.2.2}Scattering Angle}{3}{}%
+\contentsline {section}{\numberline {2.3}Equivalent Photon Method}{3}{}%
+\contentsline {chapter}{\numberline {3}Experimental Setup}{5}{}%
+\contentsline {section}{\numberline {3.1}Production of ${}^{17}B$ beam}{5}{}%
+\contentsline {section}{\numberline {3.2}Experimental Setup overview}{5}{}%
+\contentsline {section}{\numberline {3.3}BigRIPS}{5}{}%
+\contentsline {subsection}{\numberline {3.3.1}Secondary Target}{5}{}%
+\contentsline {subsection}{\numberline {3.3.2}BPC (Beam Proportional Chamber)}{5}{}%
+\contentsline {subsection}{\numberline {3.3.3}Plastic Scintillator}{5}{}%
+\contentsline {subsection}{\numberline {3.3.4}Beam Drift Chamber}{6}{}%
+\contentsline {section}{\numberline {3.4}SAMURAI}{6}{}%
+\contentsline {section}{\numberline {3.5}Data acquisition system and Trigger condition}{6}{}%
+\contentsline {section}{\numberline {3.6}Run summary}{6}{}%
+\contentsline {section}{\numberline {3.7}Flight Length}{6}{}%
+\contentsline {chapter}{\numberline {4}Data Analysis}{7}{}%
+\contentsline {section}{\numberline {4.1}Analysis of the Secondary Beam}{7}{}%
+\contentsline {subsection}{\numberline {4.1.1}Analysis of Time of Flight}{7}{}%
+\contentsline {subsection}{\numberline {4.1.2}Analysis of Magnetic Rigidity}{8}{}%
+\contentsline {subsection}{\numberline {4.1.3}Analysis of Energy Loss}{8}{}%
+\contentsline {subsection}{\numberline {4.1.4}Beam Particle Identification}{9}{}%
+\contentsline {section}{\numberline {4.2}Beam Profile at Target}{10}{}%
+\contentsline {subsection}{\numberline {4.2.1}BDC Calibration}{10}{}%
+\contentsline {subsubsection}{TDC Distribution}{10}{}%
+\contentsline {subsection}{\numberline {4.2.2}Beam Profile at Target}{11}{}%
+\contentsline {subsection}{\numberline {4.2.3}Beam beta calculation}{11}{}%
+\contentsline {subsubsection}{Eloss Calculation}{11}{}%
+\contentsline {section}{\numberline {4.3}Analysis of charged fragment}{12}{}%
+\contentsline {subsection}{\numberline {4.3.1}FDC를 이용한 위치 계산}{12}{}%
+\contentsline {subsection}{\numberline {4.3.2}Brho from Simulation}{12}{}%
+\contentsline {subsubsection}{Simulation Using Monte Carlo Method}{12}{}%
+\contentsline {subsubsection}{Numerical Calculation}{12}{}%
+\contentsline {subsection}{\numberline {4.3.3}HODscope Z}{12}{}%
+\contentsline {subsection}{\numberline {4.3.4}Fragment Particle Identification}{12}{}%
+\contentsline {section}{\numberline {4.4}Analysis of Neutrons}{14}{}%
+\contentsline {subsection}{\numberline {4.4.1}Selection of Neutron Events}{14}{}%
+\contentsline {subsubsection}{gamma event rejection}{14}{}%
+\contentsline {subsection}{\numberline {4.4.2}Clustering Event Subtraction}{15}{}%
+\contentsline {subsection}{\numberline {4.4.3}same wall event}{15}{}%
+\contentsline {subsubsection}{cluster proton cross-talk}{15}{}%
+\contentsline {subsection}{\numberline {4.4.4}different wall}{15}{}%
+\contentsline {section}{\numberline {4.5}Cross-talk 잔존률 평가}{15}{}%
+\contentsline {section}{\numberline {4.6}Acceptance and Efficiency Correction}{15}{}%
+\contentsline {section}{\numberline {4.7}Experimental Resolution}{16}{}%
+\contentsline {section}{\numberline {4.8}Relative Energy Spectrum}{16}{}%
+\contentsline {section}{\numberline {4.9}Exclusive Cross Section}{16}{}%
+\contentsline {chapter}{\numberline {5}Result and Discussion}{19}{}%
+\contentsline {section}{\numberline {5.1}Inclusive Cross Section}{19}{}%
+\contentsline {section}{\numberline {5.2}Neutron Removal Cross Section}{19}{}%
+\contentsline {section}{\numberline {5.3}Relative Energy Spectrum}{19}{}%
+\contentsline {section}{\numberline {5.4}Coulomb Dissociation Cross Section}{19}{}%
+\contentsline {section}{\numberline {5.5}Dineutron Correlation}{21}{}%
+\contentsline {chapter}{\numberline {6}Conclusion}{23}{}%
+\contentsline {chapter}{\numberline {A}Equations}{25}{}%
+\contentsline {section}{\numberline {A.1}Bethe-Bloch Formula}{25}{}%
+\contentsline {section}{\numberline {A.2}Equivalent Photon Method}{25}{}%
+\contentsline {chapter}{\numberline {B}Appendix B}{27}{}%
+\contentsline {section}{\numberline {B.1}Resolution Evaluation}{27}{}%
