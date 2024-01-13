@@ -14,6 +14,13 @@
 \usepackage{array}%표를 그리기 위한 패키지
 \renewcommand{\arraystretch}{1.2} % 행 간 간격을 1.5배로 설정
 \setlength{\tabcolsep}{8pt} % 열 간 간격을 10pt로 설정
+\usepackage[sorting=none, style=numeric]{biblatex}
+%\bibliographystyle{unsrt}
+\bibliography{reference}
+%\addbibresource{reference.bib}
+
+\usepackage{hyperref}
+\usepackage{pict2e} % for drawing picture
 
 \usepackage{here}
 \usepackage{url}
@@ -35,11 +42,6 @@
 
 %\def\thline{\noalign{\hrule height 1pt}}
 %\def\tvline{\vrule width 1pt} 
-
-%\def\seireki{%
-  %\the\year/%
-  %\ifnum\month<10 0\fi\the\month/%
-  %\ifnum\day<10 0\fi\the\day}
 
 %\renewcommand{\appendixname}{Appendix}
 %\renewcommand{\bibname}{$B;29MJ88%(B}
