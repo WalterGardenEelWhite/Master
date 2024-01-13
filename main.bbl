@@ -1,0 +1,211 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Tanihata96}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d8bb0b60af6ee6f8e7ac6efa132e5c51}{%
+           family={Tanihata},
+           familyi={T\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{d8bb0b60af6ee6f8e7ac6efa132e5c51}
+      \strng{fullhash}{d8bb0b60af6ee6f8e7ac6efa132e5c51}
+      \strng{bibnamehash}{d8bb0b60af6ee6f8e7ac6efa132e5c51}
+      \strng{authorbibnamehash}{d8bb0b60af6ee6f8e7ac6efa132e5c51}
+      \strng{authornamehash}{d8bb0b60af6ee6f8e7ac6efa132e5c51}
+      \strng{authorfullhash}{d8bb0b60af6ee6f8e7ac6efa132e5c51}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Physics G: Nuclear and Particle Physics}
+      \field{title}{Neutron halo nuclei}
+      \field{volume}{22}
+      \field{year}{1996}
+      \field{pages}{157\bibrangedash 198}
+      \range{pages}{42}
+    \endentry
+    \entry{Tanihata85}{article}{}
+      \name{author}{1}{}{%
+        {{hash=89cd4a5e2cc8997f9c654100155fd993}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={I.\bibnamedelimi Tanihata},
+           giveni={I\bibinitperiod\bibinitdelim T\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{89cd4a5e2cc8997f9c654100155fd993}
+      \strng{fullhash}{89cd4a5e2cc8997f9c654100155fd993}
+      \strng{bibnamehash}{89cd4a5e2cc8997f9c654100155fd993}
+      \strng{authorbibnamehash}{89cd4a5e2cc8997f9c654100155fd993}
+      \strng{authornamehash}{89cd4a5e2cc8997f9c654100155fd993}
+      \strng{authorfullhash}{89cd4a5e2cc8997f9c654100155fd993}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{journaltitle}{Physical Review Letters}
+      \field{number}{24}
+      \field{volume}{55}
+      \field{year}{1985}
+    \endentry
+    \entry{HansenandJonson}{article}{}
+      \name{author}{2}{}{%
+        {{hash=80de31e7a2b0ff7352e2478c22947670}{%
+           family={Hansen},
+           familyi={H\bibinitperiod},
+           given={P.\bibnamedelimi G.},
+           giveni={P\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=03f1820372e6bc16b89ea37391cc2dd1}{%
+           family={Jonson},
+           familyi={J\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{d40067b5850264d43523ac3452274e44}
+      \strng{fullhash}{d40067b5850264d43523ac3452274e44}
+      \strng{bibnamehash}{d40067b5850264d43523ac3452274e44}
+      \strng{authorbibnamehash}{d40067b5850264d43523ac3452274e44}
+      \strng{authornamehash}{d40067b5850264d43523ac3452274e44}
+      \strng{authorfullhash}{d40067b5850264d43523ac3452274e44}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{journaltitle}{Europhysics Letters}
+      \field{number}{4}
+      \field{volume}{4}
+      \field{year}{1987}
+      \field{pages}{409\bibrangedash 414}
+      \range{pages}{6}
+    \endentry
+    \entry{Ikeda}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7e2cfc02cd6d949d1c677ffb111cda15}{%
+           family={Ikeda},
+           familyi={I\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{7e2cfc02cd6d949d1c677ffb111cda15}
+      \strng{fullhash}{7e2cfc02cd6d949d1c677ffb111cda15}
+      \strng{bibnamehash}{7e2cfc02cd6d949d1c677ffb111cda15}
+      \strng{authorbibnamehash}{7e2cfc02cd6d949d1c677ffb111cda15}
+      \strng{authornamehash}{7e2cfc02cd6d949d1c677ffb111cda15}
+      \strng{authorfullhash}{7e2cfc02cd6d949d1c677ffb111cda15}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{journaltitle}{Nuclear Physics A}
+      \field{volume}{538}
+      \field{year}{1992}
+      \field{pages}{355}
+      \range{pages}{1}
+    \endentry
+    \entry{KJCook}{article}{}
+      \name{author}{1}{}{%
+        {{hash=5341a632e7f90ff012dabd7f5187b455}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           given={K.\bibnamedelimi J.\bibnamedelimi Cook},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim C\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{5341a632e7f90ff012dabd7f5187b455}
+      \strng{fullhash}{5341a632e7f90ff012dabd7f5187b455}
+      \strng{bibnamehash}{5341a632e7f90ff012dabd7f5187b455}
+      \strng{authorbibnamehash}{5341a632e7f90ff012dabd7f5187b455}
+      \strng{authornamehash}{5341a632e7f90ff012dabd7f5187b455}
+      \strng{authorfullhash}{5341a632e7f90ff012dabd7f5187b455}
+      \field{extraname}{2}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{journaltitle}{Physical Review Letters}
+      \field{volume}{124}
+      \field{year}{2020}
+      \field{pages}{212503}
+      \range{pages}{1}
+    \endentry
+    \entry{ZHYang}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9011915ad585e2b6831ab8d8bf7ffa30}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           given={Z.\bibnamedelimi H.\bibnamedelimi Yang},
+           giveni={Z\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{9011915ad585e2b6831ab8d8bf7ffa30}
+      \strng{fullhash}{9011915ad585e2b6831ab8d8bf7ffa30}
+      \strng{bibnamehash}{9011915ad585e2b6831ab8d8bf7ffa30}
+      \strng{authorbibnamehash}{9011915ad585e2b6831ab8d8bf7ffa30}
+      \strng{authornamehash}{9011915ad585e2b6831ab8d8bf7ffa30}
+      \strng{authorfullhash}{9011915ad585e2b6831ab8d8bf7ffa30}
+      \field{extraname}{3}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{journaltitle}{Physics Review Latters}
+      \field{volume}{126}
+      \field{year}{2021}
+      \field{pages}{082501}
+      \range{pages}{1}
+    \endentry
+    \entry{RIKEN}{article}{}
+      \name{author}{1}{}{%
+        {{hash=24b3118a9b8b255a8f65e61be045f952}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={Y.\bibnamedelimi Yano},
+           giveni={Y\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{24b3118a9b8b255a8f65e61be045f952}
+      \strng{fullhash}{24b3118a9b8b255a8f65e61be045f952}
+      \strng{bibnamehash}{24b3118a9b8b255a8f65e61be045f952}
+      \strng{authorbibnamehash}{24b3118a9b8b255a8f65e61be045f952}
+      \strng{authornamehash}{24b3118a9b8b255a8f65e61be045f952}
+      \strng{authorfullhash}{24b3118a9b8b255a8f65e61be045f952}
+      \field{extraname}{4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{journaltitle}{Nucl. Instrum. Methods Phys. Res. B}
+      \field{number}{1009}
+      \field{volume}{261}
+      \field{year}{2007}
+    \endentry
+  \enddatalist
+  \missing{BigRIPS}
+  \missing{Burtulani}
+  \missing{Dayonelog}
+  \missing{Estrade}
+  \missing{SAMURAI}
+  \missing{SAMURAIConcept}
+  \missing{suzuki99}
+\endrefsection
+\endinput
+

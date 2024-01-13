@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.18)  4 DEC 2023 13:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.18)  13 JAN 2024 06:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -264,64 +264,414 @@ Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \extratabsurround=\skip56
 \backup@length=\skip57
 \ar@cellbox=\box55
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/here/here.sty) (/usr/local/texlive/2023/texmf-dist/tex/latex/float/float.sty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count285
-\float@exts=\toks28
-\float@box=\box56
-\@float@everytoks=\toks29
-\@floatcapt=\box57
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count285
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)) (/usr/local/texlive/2023/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count286
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+)) (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count287
+\c@listtotal=\count288
+\c@listcount=\count289
+\c@liststart=\count290
+\c@liststop=\count291
+\c@citecount=\count292
+\c@citetotal=\count293
+\c@multicitecount=\count294
+\c@multicitetotal=\count295
+\c@instcount=\count296
+\c@maxnames=\count297
+\c@minnames=\count298
+\c@maxitems=\count299
+\c@minitems=\count300
+\c@citecounter=\count301
+\c@maxcitecounter=\count302
+\c@savedcitecounter=\count303
+\c@uniquelist=\count304
+\c@uniquename=\count305
+\c@refsection=\count306
+\c@refsegment=\count307
+\c@maxextratitle=\count308
+\c@maxextratitleyear=\count309
+\c@maxextraname=\count310
+\c@maxextradate=\count311
+\c@maxextraalpha=\count312
+\c@abbrvpenalty=\count313
+\c@highnamepenalty=\count314
+\c@lownamepenalty=\count315
+\c@maxparens=\count316
+\c@parenlevel=\count317
+\blx@tempcnta=\count318
+\blx@tempcntb=\count319
+\blx@tempcntc=\count320
+\c@blx@maxsection=\count321
+\blx@maxsegment@0=\count322
+\blx@notetype=\count323
+\blx@parenlevel@text=\count324
+\blx@parenlevel@foot=\count325
+\blx@sectionciteorder@0=\count326
+\blx@sectionciteorderinternal@0=\count327
+\blx@entrysetcounter=\count328
+\blx@biblioinstance=\count329
+\labelnumberwidth=\skip58
+\labelalphawidth=\skip59
+\biblabelsep=\skip60
+\bibitemsep=\skip61
+\bibnamesep=\skip62
+\bibinitsep=\skip63
+\bibparsep=\skip64
+\bibhang=\skip65
+\blx@bcfin=\read2
+\blx@bcfout=\write3
+\blx@langwohyphens=\language87
+\c@mincomprange=\count330
+\c@maxcomprange=\count331
+\c@mincompwidth=\count332
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'numeric.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count333
+\c@savedafterword=\count334
+\c@annotator=\count335
+\c@savedannotator=\count336
+\c@author=\count337
+\c@savedauthor=\count338
+\c@bookauthor=\count339
+\c@savedbookauthor=\count340
+\c@commentator=\count341
+\c@savedcommentator=\count342
+\c@editor=\count343
+\c@savededitor=\count344
+\c@editora=\count345
+\c@savededitora=\count346
+\c@editorb=\count347
+\c@savededitorb=\count348
+\c@editorc=\count349
+\c@savededitorc=\count350
+\c@foreword=\count351
+\c@savedforeword=\count352
+\c@holder=\count353
+\c@savedholder=\count354
+\c@introduction=\count355
+\c@savedintroduction=\count356
+\c@namea=\count357
+\c@savednamea=\count358
+\c@nameb=\count359
+\c@savednameb=\count360
+\c@namec=\count361
+\c@savednamec=\count362
+\c@translator=\count363
+\c@savedtranslator=\count364
+\c@shortauthor=\count365
+\c@savedshortauthor=\count366
+\c@shorteditor=\count367
+\c@savedshorteditor=\count368
+\c@labelname=\count369
+\c@savedlabelname=\count370
+\c@institution=\count371
+\c@savedinstitution=\count372
+\c@lista=\count373
+\c@savedlista=\count374
+\c@listb=\count375
+\c@savedlistb=\count376
+\c@listc=\count377
+\c@savedlistc=\count378
+\c@listd=\count379
+\c@savedlistd=\count380
+\c@liste=\count381
+\c@savedliste=\count382
+\c@listf=\count383
+\c@savedlistf=\count384
+\c@location=\count385
+\c@savedlocation=\count386
+\c@organization=\count387
+\c@savedorganization=\count388
+\c@origlocation=\count389
+\c@savedoriglocation=\count390
+\c@origpublisher=\count391
+\c@savedorigpublisher=\count392
+\c@publisher=\count393
+\c@savedpublisher=\count394
+\c@language=\count395
+\c@savedlanguage=\count396
+\c@origlanguage=\count397
+\c@savedoriglanguage=\count398
+\c@pageref=\count399
+\c@savedpageref=\count400
+\shorthandwidth=\skip66
+\shortjournalwidth=\skip67
+\shortserieswidth=\skip68
+\shorttitlewidth=\skip69
+\shortauthorwidth=\skip70
+\shorteditorwidth=\skip71
+\locallabelnumberwidth=\skip72
+\locallabelalphawidth=\skip73
+\localshorthandwidth=\skip74
+\localshortjournalwidth=\skip75
+\localshortserieswidth=\skip76
+\localshorttitlewidth=\skip77
+\localshortauthorwidth=\skip78
+\localshorteditorwidth=\skip79
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+\c@textcitecount=\count401
+\c@textcitetotal=\count402
+\c@textcitemaxnames=\count403
+\c@biburlbigbreakpenalty=\count404
+\c@biburlbreakpenalty=\count405
+\c@biburlnumpenalty=\count406
+\c@biburlucpenalty=\count407
+\c@biburllcpenalty=\count408
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count409
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count410
+\c@bbx:relatedtotal=\count411
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2023-02-22 L3 programming layer (loader) 
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count412
+\l__pdf_internal_box=\box56
+))
+Package biblatex Info: ... and expl3
+(biblatex)             2023-02-22 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2023-02-02 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
+)) (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2023-02-07 v7.00v Hypertext links for LaTeX
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count413
+)
+\@linkdim=\dimen174
+\Hy@linkcounter=\count414
+\Hy@pagecounter=\count415
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2023-02-07 v7.00v Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count416
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4177.
+Package hyperref Info: Link nesting OFF on input line 4182.
+Package hyperref Info: Hyper index ON on input line 4185.
+Package hyperref Info: Plain pages OFF on input line 4192.
+Package hyperref Info: Backreferencing OFF on input line 4197.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4425.
+\c@Hy@tempcnt=\count417
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen175
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count418
+\Field@Width=\dimen176
+\Fld@charsize=\dimen177
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count419
+\c@Item=\count420
+\c@Hfootnote=\count421
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2023-02-07 v7.00v Hyperref driver for pdfTeX
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+\Fld@listcount=\count422
+\c@bookmark@seq@number=\count423
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+)
+\Hy@SectionHShift=\skip80
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/pict2e/pict2e.sty
+Package: pict2e 2020/09/30 v0.4b Improved picture commands (HjG,RN,JT)
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/pict2e/pict2e.cfg
+File: pict2e.cfg 2016/02/05 v0.1u pict2e configuration for teTeX/TeXLive
+)
+Package pict2e Info: Driver file: pdftex.def on input line 112.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+)
+Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 114.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/pict2e/p2e-pdftex.def
+File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
+)
+\pIIe@GRAPH=\toks28
+\@arclen=\dimen178
+\@arcrad=\dimen179
+\pIIe@tempdima=\dimen180
+\pIIe@tempdimb=\dimen181
+\pIIe@tempdimc=\dimen182
+\pIIe@tempdimd=\dimen183
+\pIIe@tempdime=\dimen184
+\pIIe@tempdimf=\dimen185
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/here/here.sty) (/usr/local/texlive/2023/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count424
+\float@exts=\toks29
+\float@box=\box57
+\@float@everytoks=\toks30
+\@floatcapt=\box58
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup6
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/mhchem/mhchem.sty
 Package: mhchem 2021/12/31 v4.09 for typesetting chemical formulae
- (/usr/local/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2023-02-22 L3 programming layer (loader) 
- (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count286
-\l__pdf_internal_box=\box58
-)) (/usr/local/texlive/2023/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2023-02-02 LaTeX2e option processing using LaTeX3 keys
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count287
-\calc@Bcount=\count288
-\calc@Adimen=\dimen174
-\calc@Bdimen=\dimen175
-\calc@Askip=\skip58
-\calc@Bskip=\skip59
+\calc@Acount=\count425
+\calc@Bcount=\count426
+\calc@Adimen=\dimen186
+\calc@Bdimen=\dimen187
+\calc@Askip=\skip81
+\calc@Bskip=\skip82
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count289
-\calc@Cskip=\skip60
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/chemgreek/chemgreek.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2023-02-02 L3 Experimental document command parser
-)
+\calc@Ccount=\count427
+\calc@Cskip=\skip83
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/chemgreek/chemgreek.sty
 Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use in chemistry (CN)
-\l__chemgreek_tmpa_int=\count290
-\g__chemgreek_tmpa_int=\count291
+\l__chemgreek_tmpa_int=\count428
+\g__chemgreek_tmpa_int=\count429
 )
-\l__mhchem_ce_distanceFromLastComma_int=\count292
-\__mhchem_arrow_extPgfLength_skip=\skip61
-\mhchem@minispace@tmp=\skip62
-\mhchem@minibackspace@tmp=\skip63
-\mhchem@bondwidth=\skip64
-\mhchem@bondheight=\skip65
-\mhchem@smallbondwidth@tmpA=\skip66
-\mhchem@smallbondwidth@tmpB=\skip67
-\mhchem@smallbondwidth=\skip68
-\mhchem@bondtmp@minussidebearingleft=\skip69
-\mhchem@bondtmp@minussidebearingright=\skip70
-\l__mhchem_option_version_int=\count293
-\mhchem@option@minusmathsidebearingleft=\dimen176
-\mhchem@option@minusmathsidebearingright=\dimen177
-\mhchem@option@minustextsidebearingleft=\dimen178
-\mhchem@option@minustextsidebearingright=\dimen179
+\l__mhchem_ce_distanceFromLastComma_int=\count430
+\__mhchem_arrow_extPgfLength_skip=\skip84
+\mhchem@minispace@tmp=\skip85
+\mhchem@minibackspace@tmp=\skip86
+\mhchem@bondwidth=\skip87
+\mhchem@bondheight=\skip88
+\mhchem@smallbondwidth@tmpA=\skip89
+\mhchem@smallbondwidth@tmpB=\skip90
+\mhchem@smallbondwidth=\skip91
+\mhchem@bondtmp@minussidebearingleft=\skip92
+\mhchem@bondtmp@minussidebearingright=\skip93
+\l__mhchem_option_version_int=\count431
+\mhchem@option@minusmathsidebearingleft=\dimen188
+\mhchem@option@minusmathsidebearingright=\dimen189
+\mhchem@option@minustextsidebearingleft=\dimen190
+\mhchem@option@minustextsidebearingright=\dimen191
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/color.sty
@@ -330,11 +680,12 @@ Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (/usr/local/texlive/2023/texmf-dist/tex/latex/cjk-ko/kotex.sty
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (/usr/local/texlive/2023/texmf-dist/tex/latex/cjk-ko/kotex.sty
 Package: kotex 2015/04/19 v1.6 Korean TeX (ko.TeX)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/kotex-utf/kotex.cfg))) (./main.aux)
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/kotex-utf/kotex.cfg)))
+\@quotelevel=\count432
+\@quotereset=\count433
+ (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -356,6 +707,10 @@ LaTeX Font Info:    Trying to load font information for LUC+nanummj on input lin
  (/usr/local/texlive/2023/texmf-dist/tex/latex/nanumtype1/lucnanummj.fd
 File: lucnanummj.fd 2013/02/12 v0.1 Nanum Myeongjo font definitions
 )
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 
 *geometry* driver: auto-detecting
@@ -394,38 +749,109 @@ LaTeX Font Info:    ... okay on input line 8.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+(/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `main.bcf'.
 
-Package chemgreek Info: Activating mapping `default' on line 8.
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+ (./main.bbl
 
-(/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                BigRIPS
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Burtulani
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Dayonelog
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Estrade
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                SAMURAI
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                SAMURAIConcept
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                suzuki99
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
+Package biblatex Info: Reference section=0 on input line 8.
+Package biblatex Info: Reference segment=0 on input line 8.
+Package hyperref Info: Link coloring OFF on input line 8.
+ (./main.out) (./main.out)
+\@outlinefile=\write4
+\openout4 = `main.out'.
+
+ (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count294
-\scratchdimen=\dimen180
+\scratchcounter=\count434
+\scratchdimen=\dimen192
 \scratchbox=\box59
-\nofMPsegments=\count295
-\nofMParguments=\count296
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count297
-\MPscratchDim=\dimen181
-\MPnumerator=\count298
-\makeMPintoPDFobject=\count299
-\everyMPtoPDFconversion=\toks31
+\nofMPsegments=\count435
+\nofMParguments=\count436
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count437
+\MPscratchDim=\dimen193
+\MPnumerator=\count438
+\makeMPintoPDFobject=\count439
+\everyMPtoPDFconversion=\toks32
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 10.
+
+Package chemgreek Info: Activating mapping `default' on line 8.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 11.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 11.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 10.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 11.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) [1
@@ -438,156 +864,288 @@ Non-PDF special ignored!
 
 
 
-] [2
+{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [2
 
 
 ] (./main.toc [3])
-\tf@toc=\write3
-\openout3 = `main.toc'.
+\tf@toc=\write5
+\openout5 = `main.toc'.
 
  [4] (./main.lof)
-\tf@lof=\write4
-\openout4 = `main.lof'.
+\tf@lof=\write6
+\openout6 = `main.lof'.
 
  [5
 
 ] [6
 
 ] (./main.lot)
-\tf@lot=\write5
-\openout5 = `main.lot'.
+\tf@lot=\write7
+\openout7 = `main.lot'.
 
  [7] [8
 
 ] (./chapter1.tex
 Chapter 1.
-<./Figure//nuclear_chart.png, id=49, 963.6pt x 542.025pt>
-File: ./Figure//nuclear_chart.png Graphic file (type png)
-<use ./Figure//nuclear_chart.png>
-Package pdftex.def Info: ./Figure//nuclear_chart.png  used on input line 10.
-(pdftex.def)             Requested size: 398.33858pt x 224.0595pt.
-<./Figure//Radius_of_boron.png, id=50, 963.6pt x 542.025pt>
-File: ./Figure//Radius_of_boron.png Graphic file (type png)
-<use ./Figure//Radius_of_boron.png>
-Package pdftex.def Info: ./Figure//Radius_of_boron.png  used on input line 16.
-(pdftex.def)             Requested size: 398.33858pt x 224.0595pt.
-) (./chapter2.tex [1
+<./Figure//chapter1/Radius_of_11Li.png, id=455, 309.155pt x 334.24875pt>
+File: ./Figure//chapter1/Radius_of_11Li.png Graphic file (type png)
+<use ./Figure//chapter1/Radius_of_11Li.png>
+Package pdftex.def Info: ./Figure//chapter1/Radius_of_11Li.png  used on input line 6.
+(pdftex.def)             Requested size: 199.16928pt x 215.34142pt.
 
-] [2 <./Figure//nuclear_chart.png> <./Figure//Radius_of_boron.png>]
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.34 
+      [1
+
+]
+<./Figure//chapter1/19B_B(E1).png, id=474, 682.55pt x 612.2875pt>
+File: ./Figure//chapter1/19B_B(E1).png Graphic file (type png)
+<use ./Figure//chapter1/19B_B(E1).png>
+Package pdftex.def Info: ./Figure//chapter1/19B_B(E1).png  used on input line 50.
+(pdftex.def)             Requested size: 284.52756pt x 255.24373pt.
+
+
+LaTeX Warning: Citation 'suzuki99' on page 2 undefined on input line 56.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.66 \begin{align}
+                   [2 <./Figure//chapter1/Radius_of_11Li.png>]
+<./Figure//chapter1/17B_ZHYang.png, id=482, 985.6825pt x 592.2125pt>
+File: ./Figure//chapter1/17B_ZHYang.png Graphic file (type png)
+<use ./Figure//chapter1/17B_ZHYang.png>
+Package pdftex.def Info: ./Figure//chapter1/17B_ZHYang.png  used on input line 72.
+(pdftex.def)             Requested size: 284.52756pt x 170.95105pt.
+
+
+LaTeX Warning: Citation 'Estrade' on page 3 undefined on input line 77.
+
+) (./chapter2.tex
+pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter
+            {Methods} [3 <./Figure//chapter1/19B_B(E1).png>]
+pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter
+            {Methods} [4 <./Figure//chapter1/17B_ZHYang.png>]
 Chapter 2.
-<Figure/chapter2/virtual_photon_distribution.png, id=86, 636.3775pt x 509.905pt>
-File: Figure/chapter2/virtual_photon_distribution.png Graphic file (type png)
-<use Figure/chapter2/virtual_photon_distribution.png>
-Package pdftex.def Info: Figure/chapter2/virtual_photon_distribution.png  used on input line 19.
-(pdftex.def)             Requested size: 227.62204pt x 182.38301pt.
 
-Underfull \vbox (badness 8000) has occurred while \output is active []
+LaTeX Warning: Citation 'Burtulani' on page 5 undefined on input line 65.
 
- [3
 
-]) (./chapter3.tex [4 <./Figure/chapter2/virtual_photon_distribution.png>]
+pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.77 \end{align}
+                 [5
+
+]
+<./Figure//chapter2/Virtual_Photon.png, id=508, 429.605pt x 440.64626pt>
+File: ./Figure//chapter2/Virtual_Photon.png Graphic file (type png)
+<use ./Figure//chapter2/Virtual_Photon.png>
+Package pdftex.def Info: ./Figure//chapter2/Virtual_Photon.png  used on input line 92.
+(pdftex.def)             Requested size: 227.62204pt x 233.47415pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.106 \begin{align}
+                    [6 <./Figure//chapter2/Virtual_Photon.png>]) (./chapter3.tex
+pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter
+            {Experiment} [7]
+pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter
+            {Experiment} [8
+
+]
 Chapter 3.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Citation 'BigRIPS' on page 9 undefined on input line 2.
 
- [5
 
-]) (./chapter4.tex [6]
+LaTeX Warning: Citation 'SAMURAI' on page 9 undefined on input line 2.
+
+<./Figure//chapter3/BigRIPS_roof.jpg, id=529, 2325.68875pt x 1275.76625pt>
+File: ./Figure//chapter3/BigRIPS_roof.jpg Graphic file (type jpg)
+<use ./Figure//chapter3/BigRIPS_roof.jpg>
+Package pdftex.def Info: ./Figure//chapter3/BigRIPS_roof.jpg  used on input line 8.
+(pdftex.def)             Requested size: 341.43306pt x 187.28816pt.
+
+LaTeX Warning: Citation 'Dayonelog' on page 9 undefined on input line 32.
+
+
+LaTeX Warning: Citation 'Dayonelog' on page 9 undefined on input line 32.
+
+[9] [10 <./Figure//chapter3/BigRIPS_roof.jpg>]
+<./Figure//chapter3/bpc_a1.jpg, id=541, 845.0772pt x 596.9502pt>
+File: ./Figure//chapter3/bpc_a1.jpg Graphic file (type jpg)
+<use ./Figure//chapter3/bpc_a1.jpg>
+Package pdftex.def Info: ./Figure//chapter3/bpc_a1.jpg  used on input line 76.
+(pdftex.def)             Requested size: 341.43306pt x 241.18054pt.
+<./Figure//chapter3/bpc_a23.jpg, id=542, 845.0772pt x 596.9502pt>
+File: ./Figure//chapter3/bpc_a23.jpg Graphic file (type jpg)
+<use ./Figure//chapter3/bpc_a23.jpg>
+Package pdftex.def Info: ./Figure//chapter3/bpc_a23.jpg  used on input line 80.
+(pdftex.def)             Requested size: 355.65944pt x 251.22746pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./Figure//chapter3/icb_a.png, id=543, 877.2775pt x 595.22375pt>
+File: ./Figure//chapter3/icb_a.png Graphic file (type png)
+<use ./Figure//chapter3/icb_a.png>
+Package pdftex.def Info: ./Figure//chapter3/icb_a.png  used on input line 102.
+(pdftex.def)             Requested size: 341.43306pt x 231.66405pt.
+<./Figure//chapter3/bdc_a1.jpg, id=544, 845.0772pt x 596.9502pt>
+File: ./Figure//chapter3/bdc_a1.jpg Graphic file (type jpg)
+<use ./Figure//chapter3/bdc_a1.jpg>
+Package pdftex.def Info: ./Figure//chapter3/bdc_a1.jpg  used on input line 126.
+(pdftex.def)             Requested size: 341.43306pt x 241.18054pt.
+<./Figure//chapter3/bdc_a3.jpg, id=545, 845.0772pt x 596.9502pt>
+File: ./Figure//chapter3/bdc_a3.jpg Graphic file (type jpg)
+<use ./Figure//chapter3/bdc_a3.jpg>
+Package pdftex.def Info: ./Figure//chapter3/bdc_a3.jpg  used on input line 129.
+(pdftex.def)             Requested size: 341.43306pt x 241.18054pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Citation 'SAMURAIConcept' on page 11 undefined on input line 135.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[11
+
+]) (./chapter4.tex [12] [13 <./Figure//chapter3/bpc_a1.jpg> <./Figure//chapter3/bpc_a23.jpg>] [14 <./Figure//chapter3/icb_a.png>] [15 <./Figure//chapter3/bdc_a1.jpg> <./Figure//chapter3/bdc_a3.jpg>] [16
+
+]
 Chapter 4.
-[7
+[17] [18]
+Underfull \hbox (badness 10000) in paragraph at lines 93--95
 
-] [8]
-<./Figure//chapter4/beampid.png, id=113, 1173.38374pt x 567.11874pt>
+ []
+
+<./Figure//chapter4/beampid.png, id=607, 1173.38374pt x 567.11874pt>
 File: ./Figure//chapter4/beampid.png Graphic file (type png)
 <use ./Figure//chapter4/beampid.png>
-Package pdftex.def Info: ./Figure//chapter4/beampid.png  used on input line 111.
+Package pdftex.def Info: ./Figure//chapter4/beampid.png  used on input line 115.
 (pdftex.def)             Requested size: 398.33858pt x 192.52359pt.
- [9 <./Figure//chapter4/beampid.png>]
-<./Figure//chapter4/tdc_bdcs.png, id=117, 1179.40625pt x 592.2125pt>
+[19 <./Figure//chapter4/beampid.png>]
+<./Figure//chapter4/tdc_bdcs.png, id=618, 1179.40625pt x 592.2125pt>
 File: ./Figure//chapter4/tdc_bdcs.png Graphic file (type png)
 <use ./Figure//chapter4/tdc_bdcs.png>
-Package pdftex.def Info: ./Figure//chapter4/tdc_bdcs.png  used on input line 144.
+Package pdftex.def Info: ./Figure//chapter4/tdc_bdcs.png  used on input line 142.
 (pdftex.def)             Requested size: 398.33858pt x 200.02122pt.
-
-Underfull \vbox (badness 4156) has occurred while \output is active []
-
- [10
+ [20
 
  <./Figure//chapter4/tdc_bdcs.png>]
-LaTeX Font Info:    Trying to load font information for LUC+uhcmj on input line 163.
+LaTeX Font Info:    Trying to load font information for LUC+uhcmj on input line 177.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/kotex-utf/lucuhcmj.fd
 File: lucuhcmj.fd 2013/09/26 UHC Myeongjo font definitions
-) [11]
-<./Figure//chapter4/tdc_fdcs.png, id=129, 1366.10374pt x 696.6025pt>
+) [21]
+<./Figure//chapter4/tdc_fdcs.png, id=655, 1366.10374pt x 696.6025pt>
 File: ./Figure//chapter4/tdc_fdcs.png Graphic file (type png)
 <use ./Figure//chapter4/tdc_fdcs.png>
-Package pdftex.def Info: ./Figure//chapter4/tdc_fdcs.png  used on input line 198.
+Package pdftex.def Info: ./Figure//chapter4/tdc_fdcs.png  used on input line 219.
 (pdftex.def)             Requested size: 398.33858pt x 203.11499pt.
-<./Figure//chapter4/fragpid_all.png, id=130, 1173.38374pt x 567.11874pt>
+<./Figure//chapter4/fragpid_all.png, id=656, 1173.38374pt x 567.11874pt>
 File: ./Figure//chapter4/fragpid_all.png Graphic file (type png)
 <use ./Figure//chapter4/fragpid_all.png>
-Package pdftex.def Info: ./Figure//chapter4/fragpid_all.png  used on input line 214.
+Package pdftex.def Info: ./Figure//chapter4/fragpid_all.png  used on input line 234.
 (pdftex.def)             Requested size: 398.33858pt x 192.52359pt.
-<./Figure//chapter4/fragpid_b17.png, id=131, 1173.38374pt x 567.11874pt>
+<./Figure//chapter4/fragpid_b17.png, id=657, 1173.38374pt x 567.11874pt>
 File: ./Figure//chapter4/fragpid_b17.png Graphic file (type png)
 <use ./Figure//chapter4/fragpid_b17.png>
-Package pdftex.def Info: ./Figure//chapter4/fragpid_b17.png  used on input line 221.
+Package pdftex.def Info: ./Figure//chapter4/fragpid_b17.png  used on input line 240.
 (pdftex.def)             Requested size: 398.33858pt x 192.52359pt.
- [12
+ [22
 
- <./Figure//chapter4/tdc_fdcs.png>] [13 <./Figure//chapter4/fragpid_all.png> <./Figure//chapter4/fragpid_b17.png>] [14
+ <./Figure//chapter4/tdc_fdcs.png>] [23 <./Figure//chapter4/fragpid_all.png> <./Figure//chapter4/fragpid_b17.png>] [24
 
 ]
-<./Figure//chapter4/acc_same_diff.png, id=148, 1107.13625pt x 590.205pt>
+<./Figure//chapter4/acc_same_diff.png, id=693, 1107.13625pt x 590.205pt>
 File: ./Figure//chapter4/acc_same_diff.png Graphic file (type png)
 <use ./Figure//chapter4/acc_same_diff.png>
-Package pdftex.def Info: ./Figure//chapter4/acc_same_diff.png  used on input line 316.
+Package pdftex.def Info: ./Figure//chapter4/acc_same_diff.png  used on input line 341.
 (pdftex.def)             Requested size: 398.33858pt x 212.34755pt.
-<./Figure//chapter4/Pb_same_diff.png, id=149, 1107.13625pt x 590.205pt>
+ [25]
+<./Figure//chapter4/Pb_same_diff.png, id=711, 1107.13625pt x 590.205pt>
 File: ./Figure//chapter4/Pb_same_diff.png Graphic file (type png)
 <use ./Figure//chapter4/Pb_same_diff.png>
-Package pdftex.def Info: ./Figure//chapter4/Pb_same_diff.png  used on input line 330.
+Package pdftex.def Info: ./Figure//chapter4/Pb_same_diff.png  used on input line 360.
 (pdftex.def)             Requested size: 398.33858pt x 212.34755pt.
- [15]
-<./Figure//chapter4/C_same_diff.png, id=160, 1107.13625pt x 590.205pt>
+<./Figure//chapter4/C_same_diff.png, id=712, 1107.13625pt x 590.205pt>
 File: ./Figure//chapter4/C_same_diff.png Graphic file (type png)
 <use ./Figure//chapter4/C_same_diff.png>
-Package pdftex.def Info: ./Figure//chapter4/C_same_diff.png  used on input line 336.
+Package pdftex.def Info: ./Figure//chapter4/C_same_diff.png  used on input line 365.
 (pdftex.def)             Requested size: 398.33858pt x 212.34755pt.
-<./Figure//chapter4/16Bn_C.png, id=161, 634.37pt x 495.8525pt>
+<./Figure//chapter4/16Bn_C.png, id=713, 634.37pt x 495.8525pt>
 File: ./Figure//chapter4/16Bn_C.png Graphic file (type png)
 <use ./Figure//chapter4/16Bn_C.png>
-Package pdftex.def Info: ./Figure//chapter4/16Bn_C.png  used on input line 343.
+Package pdftex.def Info: ./Figure//chapter4/16Bn_C.png  used on input line 371.
 (pdftex.def)             Requested size: 398.33858pt x 311.36731pt.
-) (./chapter5.tex [16 <./Figure//chapter4/acc_same_diff.png>] [17 <./Figure//chapter4/Pb_same_diff.png> <./Figure//chapter4/C_same_diff.png>] [18 <./Figure//chapter4/16Bn_C.png>]
+) (./chapter5.tex [26 <./Figure//chapter4/acc_same_diff.png>] [27 <./Figure//chapter4/Pb_same_diff.png> <./Figure//chapter4/C_same_diff.png>] [28 <./Figure//chapter4/16Bn_C.png>]
 Chapter 5.
-<./Figure//chapter5/coulomb_pb_c.png, id=172, 827.09pt x 668.4975pt>
+<./Figure//chapter5/coulomb_pb_c.png, id=732, 827.09pt x 668.4975pt>
 File: ./Figure//chapter5/coulomb_pb_c.png Graphic file (type png)
 <use ./Figure//chapter5/coulomb_pb_c.png>
-Package pdftex.def Info: ./Figure//chapter5/coulomb_pb_c.png  used on input line 44.
+Package pdftex.def Info: ./Figure//chapter5/coulomb_pb_c.png  used on input line 43.
 (pdftex.def)             Requested size: 369.88582pt x 298.96461pt.
-[19
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 44.
+See the caption package documentation for explanation.
+
+[29
 
 ]
-<./Figure//chapter5/dsigmadE.png, id=176, 853.1875pt x 648.4225pt>
+<./Figure//chapter5/dsigmadE.png, id=739, 853.1875pt x 648.4225pt>
 File: ./Figure//chapter5/dsigmadE.png Graphic file (type png)
 <use ./Figure//chapter5/dsigmadE.png>
-Package pdftex.def Info: ./Figure//chapter5/dsigmadE.png  used on input line 46.
+Package pdftex.def Info: ./Figure//chapter5/dsigmadE.png  used on input line 45.
 (pdftex.def)             Requested size: 369.88582pt x 281.12157pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 46.
+See the caption package documentation for explanation.
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20 <./Figure//chapter5/coulomb_pb_c.png> <./Figure//chapter5/dsigmadE.png>]
-<./Figure//chapter5/dBdEx.png, id=180, 833.1125pt x 665.48625pt>
+ [30 <./Figure//chapter5/coulomb_pb_c.png> <./Figure//chapter5/dsigmadE.png>]
+<./Figure//chapter5/dBdEx.png, id=744, 833.1125pt x 665.48625pt>
 File: ./Figure//chapter5/dBdEx.png Graphic file (type png)
 <use ./Figure//chapter5/dBdEx.png>
-Package pdftex.def Info: ./Figure//chapter5/dBdEx.png  used on input line 56.
+Package pdftex.def Info: ./Figure//chapter5/dBdEx.png  used on input line 55.
 (pdftex.def)             Requested size: 369.88582pt x 295.46516pt.
- [21 <./Figure//chapter5/dBdEx.png>]) (./chapter6.tex [22]
-Chapter 6.
-) (./appendix.tex [23
 
-] [24
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 56.
+See the caption package documentation for explanation.
+
+[31 <./Figure//chapter5/dBdEx.png>]) (./chapter6.tex [32]
+Chapter 6.
+) (./appendix.tex [33
+
+] [34
 
 ]
 Appendix A.
@@ -596,26 +1154,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--24
 
  []
 
-[25] [26
+[35] [36
 
 ]
 Appendix B.
-) [27] [28
+) [37] [38
 
-] (./main.aux) ) 
+] [39] [40
+
+] (./main.aux)
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 72870482FC3DCC48B107FD70E2B5F859;10488.
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
 Here is how much of TeX's memory you used:
- 7464 strings out of 476025
- 134666 string characters out of 5790016
- 1864388 words of memory out of 5000000
- 27673 multiletter control sequences out of 15000+600000
- 545645 words of font info for 151 fonts, out of 8000000 for 9000
+ 21943 strings out of 476025
+ 394301 string characters out of 5790016
+ 1865388 words of memory out of 5000000
+ 41740 multiletter control sequences out of 15000+600000
+ 544075 words of font info for 144 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,13n,80p,1031b,360s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjbac.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc0.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjbce.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd3.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmad.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmae.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb0.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb1.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb2.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb3.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb4.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmba.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbc.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbd.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbe.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc0.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc1.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc2.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcc.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcd.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmce.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcf.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd0.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd1.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd2.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd3.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd3.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd4.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/uhc/umj/umj02.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/uhc/umj/umj05.pfb>
-Output written on main.pdf (37 pages, 2989822 bytes).
+ 72i,14n,80p,1312b,1649s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjbac.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc0.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjbce.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd3.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmad.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmae.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb0.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb1.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb2.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb3.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb4.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmba.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbc.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbd.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbe.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc0.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc1.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc2.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcc.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcd.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmce.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd0.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd1.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd2.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd3.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd3.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd4.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/uhc/umj/umj02.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/uhc/umj/umj05.pfb>
+Output written on main.pdf (49 pages, 4826300 bytes).
 PDF statistics:
- 499 PDF objects out of 1000 (max. 8388607)
- 299 compressed objects within 3 object streams
- 0 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1159 PDF objects out of 1200 (max. 8388607)
+ 923 compressed objects within 10 object streams
+ 239 named destinations out of 1000 (max. 500000)
+ 615 words of extra memory for PDF output out of 10000 (max. 10000000)
 
