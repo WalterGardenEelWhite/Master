@@ -2,24 +2,36 @@
 \usepackage{dhucs}
 \usepackage{dhucs-trivcj}
 \usepackage{geometry}
-\geometry{left=30mm,right=30mm,top=30mm,bottom=30mm}
+%\geometry{left=40mm,right=40mm,top=30mm,bottom=40mm}
+
+\usepackage{times} %Times New Roman font
+
+\usepackage{setspace} %줄간격 package
+\onehalfspacing
 
 \usepackage[dvipdfmx]{graphicx}
 \graphicspath{{./Figure/}}
+
 \usepackage[nottoc]{tocbibind}
+
 \usepackage{amsmath,amssymb}
+
 \usepackage{enumitem}%좀 더 fancy한 itemize를 위한 패키지
+
 \usepackage{changepage}%문단을 들여쓰기 하기 위한 패키지
+
 \usepackage{subcaption}%sub figure를 위한 패키지
+
 \usepackage{array}%표를 그리기 위한 패키지
+
 \renewcommand{\arraystretch}{1.2} % 행 간 간격을 1.5배로 설정
 \setlength{\tabcolsep}{8pt} % 열 간 간격을 10pt로 설정
-\usepackage[sorting=none, style=numeric]{biblatex}
-%\bibliographystyle{unsrt}
-\bibliography{reference}
-%\addbibresource{reference.bib}
 
-\usepackage{hyperref}
+\usepackage[sorting=none, style=science]{biblatex}
+\bibliography{reference}
+
+\usepackage{fancyhdr} %머릿글 꼬릿글 설정 package
+
 \usepackage{pict2e} % for drawing picture
 
 \usepackage{here}
@@ -37,14 +49,12 @@
 
 %\def\theequation{\arabic{chapter}.\arabic{section}.\arabic{equation}}
 %\makeatletter
-%\@addtoreset{equation}{section}
 %\makeatother
 
 %\def\thline{\noalign{\hrule height 1pt}}
 %\def\tvline{\vrule width 1pt} 
 
 %\renewcommand{\appendixname}{Appendix}
-%\renewcommand{\bibname}{$B;29MJ88%(B}
 %\setlength{\textwidth}{\fullwidth}
 %\setlength{\evensidemargin}{\oddsidemargin}
 

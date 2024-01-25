@@ -1,31 +1,74 @@
 \appendix
+
+\chapter{Constants}
+\section{Mass}
+For calculating the mass of the nucleus, the mass excess is used. The mass is defined with mass excess ($\Delta$) as
+\begin{align}
+    M(A,Z) = A m_u + \Delta(A,Z),
+\end{align}
+where $m_u$ is the atomic mass unit. In this thesis, the mass excess of each nucleus is used from the ~~
+\begin{table}[h]
+    \centering
+    \begin{tabular}{c|c}
+        \hline \hline
+        Nucleus & Mass Excess(MeV) \\
+        \hline
+        ${}^{19}$B & 59.8 \\
+        ${}^{17}$B & 43.72 \\
+        ${}^{15}$B & 28.957 \\
+        ${}^{14}$B & 23.664 \\
+        ${}^{13}$B & 16.561 \\
+        \hline \hline       
+    \end{tabular}
+\end{table}
+
 \chapter{Equations}
 \section{Bethe-Bloch Formula}
-Energy loss calculation for 
+Energy loss calculation for reconstruction of invariant mass is done by Bethe-Bloch formula. 
 
 \section{Equivalent Photon Method}
 considering multi-polarity, 
-\begin{displaymath}
+\begin{align}
     n_{\pi l}(\omega)=Z^{2}_{1} \alpha \frac{l[(2l+1)]!!^{2}}{(2\pi)^{3}(l+1)}\sum_{m}\Big|G_{\pi l m}\big( \frac{c}{v}\big) \Big|^{2} g_{m}(\xi)
-\end{displaymath} 
+\end{align} 
 
 equivalent photon number for E1 excited projectile.
-\begin{displaymath}
-    n_{E1}(\omega)=n_{E1, m=-1}+n_{E1, m=0}+n_{E1, m=+1}=\frac{2}{\pi}Z^{2}_{1}\alpha\Big(\frac{c}{v}\Big)^{2}\Big[\xi K_{0}(\xi)K_{1}(\xi)-\frac{v^{2}\xi^{2}}{2c^{2}}(K^{2}_{1}(\xi)-K^{2}_{0}(\xi)\Big]
-\end{displaymath}
+\begin{align}
+    n_{E1}(\omega)=n_{E1, m=-1}+n_{E1, m=0}+n_{E1, m=+1}\\
+    =\frac{2}{\pi}Z^{2}_{1}\alpha\Big(\frac{c}{v}\Big)^{2}\Big[ \xi K_{0}(\xi)K_{1}(\xi)-\frac{v^{2}\xi^{2}}{2c^{2}}(K^{2}_{1}(\xi)-K^{2}_{0}(\xi)) \Big]
+\end{align}
 
 with 
 \begin{align}
     \xi=E_{\gamma}R/\gamma \nu \hbar\\
     E_{\gamma}: Photon energy( E_{\gamma}=\omega\hbar )\\
-    Z_{1}: Atomic number of target
+    Z_{1} Atomic number of target
 \end{align}
-R: impact parameter ( 1.3 )\\
+
+%R: impact parameter ( 1.3 )
+
+\chapter{Resolution Evaluation}
+\section{Intrinsic Resolution of Drift Chambers}
+
+\section{Position and Angular resolution at the target}
+Using intrinsic resolution of each drift chamber, the position and angular resolution at the target can be calculated. The angular resolution at the target is calculated as
+\begin{align}
+    \Delta \theta_x^{\text{tgt}} = \Delta \bigg( \frac{x_{\text{BDC2}} - x_{\text{BDC1}}}{L(\text{BDC2} - \text{BDC1})} \bigg) 
+    = \frac{\sqrt{(\Delta x_{\text{BDC2}})^2 + (\Delta x_{\text{BDC1}})^2}}{1000 \text{mm}} \\ \notag
+    \Delta \theta^{\text{tgt}}_y = \Delta \Big( \frac{y_{\text{BDC2}} - y_{\text{BDC1}}}{L(\text{BDC2} - \text{BDC1})} \Big) 
+    = \frac{\sqrt{(\Delta y_{\text{BDC2}})^2 + (\Delta y_{\text{BDC1}})^2}}{1000 \text{mm}}
+\end{align}
+The position resolution at the target is
+\begin{align}
+    \Delta x_{\text{tgt}} = \sqrt{(\Delta x_{\text{BDC2}})^2 + (\Delta \theta_x^{\text{tgt}} \cdot L(\text{tgt} - \text{BDC2}))^2} \\ \notag
+    \Delta y_{\text{tgt}} = \sqrt{(\Delta y_{\text{BDC2}})^2 + (\Delta \theta_y^{\text{tgt}} \cdot L(\text{tgt} - \text{BDC2}))^2}
+\end{align}
 
 
-\chapter{Appendix B}
-\section{Resolution Evaluation}
+\section{Two-body Relative Energy Resolution}
 
+
+\chapter{}
 \begin{table}[h]
     \centering
     \begin{tabular}[h]{c|c}
@@ -44,3 +87,39 @@ R: impact parameter ( 1.3 )\\
 \end{table}
 
 
+\begin{figure}[h]
+    \centering
+    \setlength{\unitlength}{1mm}
+    \begin{picture}(100,30)
+      % GDR
+      \put(70,20){\circle{20}} % GDR
+      \put(72,20){\circle{20}} % GDR
+      \put(70,20){\vector(1,0){3}}%
+      \put(70,20){\vector(-1,0){2}}%
+      \put(63,30){$p$} % p label
+      \put(77,30){$n$} % n label
+      \put(67,5){GDR} % GDR label
+    
+      % Soft E1
+      \put(20,20){\circle{18}}
+      \put(23,20){\circle*{10}}
+        \put(15,20){\vector(1,0){2}}
+        \put(15,20){\vector(-1,0){2}}
+        \put(15,5){Soft $E1$}
+        
+    \end{picture}
+    \caption{The schematic representation of the giant dipole resonance and soft dipole mode}
+    \end{figure}
+
+
+    \begin{align}
+        \langle \text{cos} \theta_{nn} \rangle &= \langle \Psi({}^{11}\text{Li}) | \text{cos} \theta_{nn} | \Psi({}^{11}\text{Li}) \rangle \notag \\
+        &= \alpha^2 \langle (1d_{5/2})^2 | \text{cos} \theta_{nn} | (1d_{5/2})^2 \rangle + \beta^2 \langle (2s_{1/2})^2 | \text{cos} \theta_{nn} | (2s_{1/2})^2 \rangle \notag \\
+        &\hspace{4mm} + 2\alpha \beta \langle (1d_{5/2})^2 | \text{cos} \theta_{nn} | (2s_{1/2})^2 \rangle \notag \\
+        &= 2\alpha \beta \langle (1d_{5/2})^2 | \text{cos} \theta_{nn} | (2s_{1/2})^2 \rangle
+    \end{align}
+    
+    where $|(1d_{5/2}^2)$ represents $|\psi({}^{15}\text{B})\otimes|$
+    \begin{align}
+        \langle r^2_m \rangle = \frac{A_c}{A}\langle r^2_m \rangle_c + \frac{2A_c}{A^2}\langle r^2_{c-nn} \rangle + \frac{1}{2A}\langle r^2_{nn} \rangle
+    \end{align}
