@@ -1,0 +1,118 @@
+\chapter{Energy loss calculation}
+Energy loss calculation for \cite{Dayonewiki} \cite{Ogoshi}
+\section{Meterial between F7 to target}
+\begin{table}
+    \centering
+    \begin{tabular}{lllll}
+    Detector & Material & Phase & Composition & Density (g/cm$^3$) \\
+    \hline
+    Vacuum & Vacuum & Gas &  &  \\
+    Air & Air & Gas &  &  \\
+    Myler & C$_{10}$H$_8$O$_4$ & Solid &  &  \\
+    Kapton & C$_{22}$H$_{10}$N$_2$O$_5$ & Solid &  &  \\
+    Plastic & C$_2$H$_4$ & Solid &  &  \\
+    Vinylchloride & C$_2$H$_3$Cl & Solid &  &  \\
+    Ar & Ar & Gas &  &  \\
+    CH$_4$ & CH$_4$ & Gas &  &  \\
+    
+    \end{tabular}
+\end{table}
+\begin{table}
+    \centering
+    \begin{tabular}{lllllll} \\ \hline
+    \# & Detector   & data\_material & Thickness & F7 からの & STQ25 下流面 & 備考    \\
+       & or vacuum  & ファイル名        & (cm)      & 距離 (cm) & からの距離 (cm) & \\
+    \hline
+    %s\multicolumn{5}{c}{F7} & 0.0 &  & \\ \hline
+    1 & Vacuum      & vacuum.dat  & 11.0410 &  11.0410 &  &    11.0455+0.0045=11.05 \\
+    2 & F7 PPAC 1   & mylar.dat   & 0.0045  &  11.0455 &  & \\
+    3 & F7 PPAC 2   & mylar.dat   & 0.0045  &  11.0500 &  & \\ \hline
+    4 & Vacuum      & vacuum.dat  & 9.3     &  20.3500 &  & 9.3+0.3+1.4=11.0 \\
+    5 & Vacuum      & vacuum.dat  & 1.4     &  21.7500 &  & \\
+    6 & F7 Plastic  & plastic.dat & 0.3     &  22.0500 &  & \\ \hline
+    7 & Vacuum      & vacuum.dat  & 3576.35 & 3598.4000 & &        3576.35+69.3=3645.65 \\
+    \cline{1-6}
+    \multicolumn{4}{c}{STQ25 下流面}          & 3598.4000 & 0.0 & \\
+    \cline{1-6}
+    8 & Vacuum      & vacuum.dat  & 69.3    & 3667.7000 & 69.3000 & \\
+    \hline
+    9 & Kapton      & kapton.dat  & 0.0125  & 3667.7125 & 69.3125 & 0.0125+11.9875=12.0 \\
+    10& Air         & air.dat     & 11.9875 & 3679.7000 & 81.3000 & \\
+    \hline
+    11& SBT1 Plastic& plastic.dat & 0.05    & 3679.7500 & 81.3500 & \\
+    12& Light Shield&vinylchloride.dat& 0.02& 3679.7700 & 81.3700 & \\
+    13& Light Shield&mylar.dat  & 0.0048 & 3679.7748 & 81.3748 & 0.05+0.02+0.0048 \\
+    \cline{1-6}
+    14 & Vacuum         & air.dat    & 7.9252 & 3687.7000 & 89.3000 &    +7.9252=8.0 \\ 
+    \hline
+    15 & SBT2 Plastic & plastic.dat & 0.05  & 3687.7500 & 89.3500 & \\
+    16 & Light Shield& vinylchloride.dat & 0.02 & 3687.7700 & 89.3700 & \\
+    17 & Light Shield & mylar.dat  & 0.0048 & 3687.7748 & 89.3748 &0.05+0.02+0.0048 \\
+    \cline{1-6}
+    18 & Vacuum       & air.dat    & 5.9252 & 3693.7000 & 95.3000 & +5.9252=6.0 \\
+    \hline
+    19 & ICB(Window)     & kapton.dat & 0.003  & 3693.7030 & 95.3030& \\
+    20 & ICB(Ar)       & Ar.dat     &22.98096& 3716.6840 & 118.2840 & \\
+    21 & ICB(CH$_4$)     & CH4.dat    &2.55344 & 3719.2374 & 120.8374 & 0.003+22.98096 \\
+    22 & ICB(Anode)     & mylar.dat  & 0.0126 & 3719.2500 & 120.8500 & +2.55344+0.0126 \\
+    23 & ICB(Cathode)     & mylar.dat  & 0.0126 & 3719.2626 & 120.8626 & +0.0126+2.55344 \\
+    24 & ICB(CH$_4$)    & CH4.dat    &2.55344 & 3721.8160 & 123.4160 & +22.98096+0.003=51.1 \\
+    25 & ICB(Ar)       & Ar.dat     &22.98096& 3744.7970 & 146.3970 & \\
+    26 & ICB(出口窓)     & kapton.dat & 0.003  & 3744.8000 & 146.4000& \\
+    \hline
+    27 & Air         & air.dat    & 5.0    & 3749.8000 & 151.4000 & \\
+    \hline
+    28 &Window     & kapton.dat & 0.008  & 3749.8080 & 151.4080 &
+    0.008+14.079=14.087 \\
+    29 &Vacuum         & vacuum.dat & 14.079 & 3763.8870 & 165.4870 & \\
+    \hline
+    \end{tabular}
+\end{table}
+
+\begin{table}
+    \centering
+    \begin{tabular}{lllllll} \\ \hline
+        \# & Detector   & data\_material & Thickness & F7 からの & STQ25 下流面 & 備考    \\
+           & or vacuum  & ファイル名        & (cm)      & 距離 (cm) & からの距離 (cm) & \\
+        \hline
+    30 & BDC1(真空窓) & kapton.dat & 0.008 & 3763.8950 & 165.4950 &
+    0.008+8.976 \\
+    31 & BDC1(C$_4$H$_{10}$ 100 torr) & C4H10\_100torr.dat & 8.976 &
+    3772.8710 & 174.4710 &
+    +0.008+0.008=9.0  \\
+    32 & BDC1(電極) & kapton.dat & 0.008 & 3772.8790 & 174.4790 &    \\
+    33 & BDC1(真空窓)& kapton.dat & 0.008 & 3772.8870 & 174.4870 & \\
+    \hline
+    34 & Vacuum     & vacuum.dat &90.932 & 3863.8190 & 265.4190 & \\
+    \hline
+    35 & BDC2(真空窓) & kapton.dat & 0.008 & 3863.8270 & 265.4270 &
+    0.008+8.976 \\
+    36 & BDC2(C$_4$H$_{10}$ 100 torr) & C4H10\_100torr.dat & 8.976 &
+    3872.8030 & 274.4030 &
+    +0.008+0.008=9.0 \\
+    37 & BDC2(電極)& kapton.dat & 0.008 & 3872.8110 & 274.4110 &    \\
+    38 & BDC2(Window) & kapton.dat & 0.008 & 3872.8190 & 274.4190 & \\
+    \hline
+    39 & Vacuum    & vacuum.dat &97.281 & 3970.1000 & 371.7000 & \\
+    \hline
+    40 & 標的(1/2厚)  & carbon\_1789.dat & 0.5 & 3970.6000 & 372.2000 & 密度: 1.789 g/cm$^3$ \\ \hline
+    \end{tabular}
+\end{table}
+
+\begin{table}
+    \centering
+    \begin{tabular}{lllllll} \\ \hline
+    \# & Detector   & data\_material & Thickness & Distance & STQ25 下流面 & 備考    \\
+       & or vacuum  & ファイル名        & (cm)      & from target (cm) & からの距離 (cm) & \\
+    \hline
+    1 & Target      & carbon\_1789.dat & 0.5 & 0.5000 & 密度: 1.789 g/cm$^3$、全厚み: 1 cm \\ \hline
+    2 & Vacuum      & vacuum.dat  & 97.338   & 97.8380  & \\ \hline
+    3 & FDC1(真空窓) & kapton.dat & 0.016    & 97.8540  & 0.016+0.012 \\
+    4 & FDC1(電極)   & kapton.dat & 0.012    & 97.8660  & +33.572=33.6\\
+    5 & FDC1(C$_4$H$_{10}$ 50 torr) & C4H10\_50torr.dat & 33.572 & 131.4380 &  \\
+    \hline
+    \end{tabular}
+    \caption{List of Material between target to FDC1}
+\end{table}
+
+

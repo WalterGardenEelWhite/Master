@@ -1,35 +1,76 @@
 \chapter{Experiment}
-    This chapter describes about experimental setup in this study. The experiment is performed at Rare Isotope Beam Factory (RIBF) at RIKEN Nishina Center.\cite{RIKEN} A primary ${}^{48}$Ca beam is produced by the RIKEN accelerator complex and delivered to the BigRIPS separator. \cite{Kubo03} \cite{Kubo07} \cite{Kubo12} The BigRIPS separator produced the ${}^{17}$B secondary beam which bombarded on the lead and carbon targets in front of the SAMURAI (Superconducting Analyzer for MUlti-particles from Radioisotope beams) spectrometer. \cite{SAMURAI} After the reaction at target, the fragments ${}^{15}$B and two neutrons are detected by detectors at SAMURAI area. Note that this experiment was part of the SAMURAI Dayone experiment which was the first physics run using the SAMURAI spectrometer.
+This chapter describes the experimental setup in this study. The experiment is performed at Rare Isotope Beam Factory (RIBF) at RIKEN Nishina Center \cite{RIKEN}. A primary ${}^{48}$Ca beam is produced by the RIKEN accelerator complex and delivered to the BigRIPS separator \cite{Kubo03}\cite{Kubo07}\cite{Kubo12}. The BigRIPS separator produced the ${}^{17}$B secondary beam which bombarded on the lead and carbon targets in front of the SAMURAI (Superconducting Analyzer for MUlti-particles from Radioisotope beams) spectrometer\cite{SAMURAI}. After the reaction at the target, the fragments ${}^{15}$B and two neutrons are detected by detectors at SAMURAI area. 
+
+
+
+The primary beam was accelerated by the SRC, RIBF. By accelerating ${}^{48}$Ca to 345 MeV/u and bombarding it on a thick Be target (30mm), a secondary beam was produced. The characteristics of the primary beam is in Table \ref{tab:Primary_Beam}.
+
+    \begin{table}[h]
+        \centering 
+            \begin{tabular}[]{c|c|c|c}
+                \hline
+                Primary Beam & Beam Energy & Beam Intensity & Primary Target  \\
+                \hline 
+                ${}^{48}$Ca & 345 MeV/u & 210 pnA & Be (30mm)\\
+                \hline    
+            \end{tabular}
+        \caption{Information of Primary Beam}
+        \label{tab:Primary_Beam}
+    \end{table}
+    The collision of the initial beam and the target created the secondary beam, including not only purpose isotope of this experiment, ${}^{19}$B, but also other neighboring isotopes. The main isotope used in this research is ${}^{17}$B, which needed to be separated and identified through the BigRIPS separator. 
+    \begin{table}[ht]
+        \centering
+        \begin{tabular}[ht]{c|c|c}
+            \hline
+            isotope & Target & Average Energy at the middle of target \\
+            \hline
+            & C (1.789 g/cm$^2$)  & 270 MeV/u\\
+            ${}^{17}$B & Empty  & 275 MeV/u\\
+            & Pb (3.255 g/cm$^2$) & 270 MeV/u\\
+            \hline    
+        \end{tabular}
+        \caption{Information of Secondary Beam}
+    \end{table}
+    The identified ${}^{17}$B was then transferred to SAMURAI, where it underwent Coulomb dissociation, the main objective of this research. Three different targets were used: C, Pb, and Empty. The details for ${}^{17}$B with each target were as follows.
 
 \section{BigRIPS separator}
 
     \begin{figure}
         \centering
         \includegraphics[width=12cm]{chapter3/BigRIPS_roof.jpg}
-        \caption{A top view of the BigRIPS separator}
+        \caption{A top view of the BigRIPS separator \cite{Dayonewiki}}
+        \label{fg:BigRIPS}
     \end{figure} 
 
-After primary ${}^{48}$Ca beam is produced at SRC accelerator, the beam bombarded on a 30mm thick Be target and the secondary beam is produced through the in-flight fragmentation method. Since the secondary beam includes many rare isotopes, the RI beam is separated by the BigRIPS separator. Table 3.1 shows the BigRIPS separator setup for Dayone experiment. In the first stage of BigRIPS separator, the RI beam separated by dipole magnet with slit and wedge-shaped degrader located at F1 focal plane. In the dipole magnet, the rigidity of a particle can be written as following eq \ref{eq:rigidity}.
+After the primary ${}^{48}$Ca beam is accelerated at the last superconducting cyclotron SRC, the beam bombarded on a 30mm thick Be target and the secondary beam $^{17}$B is produced through the in-flight fragmentation method. Since the secondary beam includes many rare isotopes, the RI beam is separated by the BigRIPS separator. Table 3.1 shows the BigRIPS separator setup for Dayone experiment. In the first stage of BigRIPS separator, the RI beam separated by dipole magnet with slit and wedge-shaped degrader located at F1 focal plane. In the dipole magnet, the rigidity of a particle can be written as following eq (\ref{eq:rigidity}).
     \begin{align}
-        \rho = \frac{A}{Z} \cdot\frac{v}{B} \label{eq:rigidity}
+        B\rho = v \cdot \frac{A}{Z}  \label{eq:rigidity}
     \end{align}
 The velocity of the secondary beam is almost same regardless of the nuclei so that it can be possible to choose specific $A/Z$ by adjusting the slit to filter only some $B\rho$ value. After that, the wedge-shaped degrader makes the beam energy depends on the $Z$ so that even same $A/Z$ nuclei can be separated. In the second stage, the RI beam is identified using TOF-B$\rho$-$\Delta E$ method. Each detector information will be described as following.
+
     \begin{table}[h]
         \centering
         \begin{tabular}{c c c c}
             \hline
-            Focal Plane & Dipole Magnet [Tm] & Slit[mm] & Degrader / Detector \\
+            Location & Dipole [Tm] & Slit[mm] & Degrader / Detector \\
             \hline
-            F0  & 9.1734 &  & Be target (30mm) \\
-            F1  & 8.8195 & $\pm$120 & Al wedge degrader \\
-            F2  & 8.8195 & L: 10 R: 7 & \\
-            F3  & 8.7841 &  & Plastic Scintillator (3mm)\\
-            F5  & 8.780  & $\pm$120 & BPC \\
-            F7  & 8.780  & $\pm$120 & Plastic Scintillator (3mm)\\
+            F0  &  &  & Be target (30mm) \\
+            F1  &  & $\pm$120 & Al wedge degrader (15mm)\\
+            F1-F2 &   8.985  &  & \\
+            F2  &  & L: 10 R: 7 & \\
+            F3  &  &  & Plastic Scintillator (3mm)\\
+            F3-F4 & 8.954 &  & \\
+            F4-F5 & 8.96 &  & \\
+            F5  &   & $\pm$120 & BPC \\
+            F5-F6 & 8.775  &  & \\
+            F6-F7 & 8.785  &  & \\
+            F7  &  & $\pm$120 & Plastic Scintillator (3mm)\\
+            F8 &  & $\pm$170 & \\
+            F12 &  & $\pm$170 & \\
             %F13 &  & & Plastic Scintillator (0.5mm$\times$2)\\
             \hline
         \end{tabular}
-        \caption{BigRIPS separator setup for Dayone experiment \cite{Dayonelog}}
+        \caption{BigRIPS separator setup for Dayone experiment \cite{Dayonewiki}}
     \end{table}
 
 \subsection{Plastic Scintillator}
@@ -37,14 +78,14 @@ At focal plane F3, F7, F13, plastic scintillators are located for measuring the 
 
 \begin{table}[h]
     \centering
-    \begin{tabular}{c|ccc}
+    \begin{tabular}{c|cc}
         \hline
-        & Location & Thickness & Distance from target upstream \\
+        Location & Thickness & Distance from target upstream \\
         \hline
-        SF3 & F3 & 3mm & 86053.56 mm\\
-        SF7 & F7 & 3mm & 39483.58 mm\\
-        SBT1 & F13 &0.5mm & 2904.08 mm\\
-        SBT2 & F13 &0.5mm & 2824.08 mm\\
+        F3 & 3mm & 86053.56 mm\\
+        F7 & 3mm & 39483.58 mm\\
+        F13-1 &0.5mm & 2904.08 mm\\
+        F13-2 &0.5mm & 2824.08 mm\\
         \hline
     \end{tabular}
     \caption{Information of Plastic Scintillators at F3, F7, F13}
@@ -57,11 +98,11 @@ BPC is Multi Wire Proportional Chamber (MWPC) located at F5 focal plane which is
     \centering
     \begin{tabular}{l|c}
         \hline
-        Effective Area & (H)240mm x (V)150mm \\
+        Effective Area & (H)240mm $\times$ (V)150mm \\
         Configuration & $XX$ (2 Planes) \\
         number of wire & 64 $\times$ 2 = 128 \\
         Wire Pitch & 4mm \\
-        Gas & $i$--${C}_{4} {H}_{10}$ at 50 torr\\
+        Gas & $i$--${\text{C}}_{4} {\text{H}}_{10}$ at 50 torr\\
         \hline
     \end{tabular}
     \caption{Parameter of BPC (Beam Proportional Chamber) \cite{SAMURAI}}
@@ -83,13 +124,30 @@ BPC is Multi Wire Proportional Chamber (MWPC) located at F5 focal plane which is
 
 \clearpage
 
+\section{SAMURAI}
+
+\begin{figure}[hbt!]
+    \centering
+    \includegraphics[width=12cm]{chapter3/SAMURAI1.png}
+    \caption{A top view of the beam line from BigRIPS to SAMURAI spectrometer}
+\end{figure}
+
+The SAMURAI spectrometer is designed for kinematically complete experiment such as invariant mass spectroscopy. \cite{SAMURAIConcept} Charged fragment bent by SAMURAI superconducting magnet and detected by two drift chambers (FDC1, FDC2) and one plastic scintillator (HODF). Two drift chamber for fragment are located at before and after SAMURAI magnet, for rigidity analysis. And plastic scintillator HODF is placed after FDC2 to measure the TOF and energy loss of fragment. Finally the neutron detector array NEBULA is located at the end of extended beam line for neutron detection. Using SAMURAI system, the invariant mass of the system can be reconstructed by measuring all of the fragments and neutrons.
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=12cm]{chapter3/SAMURAI.png}
+    \caption{A top view of the SAMURAI spectrometer}
+\end{figure}
+
+
 \subsection{ICB (Ion Chamber for Beam)}
 The ICB is multi-layer ionization chamber for measuring the energy loss ($\Delta E$) of secondary beam. Using P10 gas at 1 atm, the energy loss of secondary beam can be measured. 
 \begin{table}[h]
     \centering
     \begin{tabular}{l|c}
         \hline
-        Effective Area & (H)140mm x (V)140mm x (D)420mm\\
+        Effective Area & (H)140mm $\times$ (V)140mm $\times$ (D)420mm\\
         Configuration & 10 anodes and 11 cathodes \\
         Anode-cathode gap & 21mm \\
         Gas & P10 at 1 atm\\
@@ -112,11 +170,11 @@ Before target, there are two Beam drift chamber for reconstructing the trajector
     \centering
     \begin{tabular}[h]{l|c}
         \hline
-        Effective Area & (H)80mm x (V)80mm\\
+        Effective Area & (H)80mm $\times$ (V)80mm\\
         Configuration & $XX'YY'XX'YY'$ (8 planes)\\
         Number of Wire & 16 $\times$ 8 = 128 \\
         Wire Pitch & 5mm \\
-        Gas & $i$--${C}_{4} {H}_{10}$ at 100 torr\\
+        Gas & $i$--${\text{C}}_{4} {\text{H}}_{10}$ at 100 torr\\
         Distance from target upstream & (BDC1) 2032.12mm (BDC2) 1032.8 mm \\
         \hline
     \end{tabular}
@@ -126,9 +184,11 @@ Before target, there are two Beam drift chamber for reconstructing the trajector
 \begin{figure}[h]
     \centering
     \begin{subfigure}{\textwidth}
-        \includegraphics[width=12cm]{chapter3/bdc_a1.jpg}    
+        \centering
+        \includegraphics[width=12.5cm]{chapter3/bdc_a1.jpg}    
     \end{subfigure}
     \begin{subfigure}{\textwidth}
+        \hspace{1.5cm}
         \includegraphics[width=12cm]{chapter3/bdc_a3.jpg}
     \end{subfigure}
     \caption{Schematic View of BDC (Beam Drift Chamber) \cite{SAMURAI}}
@@ -136,23 +196,28 @@ Before target, there are two Beam drift chamber for reconstructing the trajector
 
 \clearpage
 
-\section{SAMURAI}
+\subsection{SBV (Secondary Beam Veto)}
 
-\begin{figure}[hbt!]
+\subsection{Secondary Target}
+
+\begin{table}[h]
     \centering
-    \includegraphics[width=12cm]{chapter3/SAMURAI1.png}
-    \caption{A top view of the beam line from BigRIPS to SAMURAI spectrometer}
-\end{figure}
+    \begin{tabular}{c|c}
+        \hline
+        Material & Thickness \\
+        Pb & 3.255 g/cm${}^{2}$\\
+         C & 1.789 g/cm${}^{2}$ \\
+        \hline
+    \end{tabular}
+    \caption{Information of Secondary Reaction Target \cite{Dayonewiki}}
+\end{table}
 
-The SAMURAI spectrometer is designed for kinematically complete experiment such as invariant mass spectroscopy. \cite{SAMURAIConcept} Charged fragment bent by SAMURAI superconducting magnet and detected by two drift chambers (FDC1, FDC2) and one plastic scintillator (HODF). Two drift chamber for fragment are located at before and after SAMURAI magnet, for rigidity analysis. And plastic scintillator HODF is placed after FDC2 to measure the TOF and energy loss of fragment. Finally the neutron detector array NEBULA is located at the end of extended beam line for neutron detection. Using SAMURAI system, the invariant mass of the system can be reconstructed by measuring all of the fragments and neutrons.
-
-\begin{figure}[t]
-    \centering
-    \includegraphics[width=12cm]{chapter3/SAMURAI.png}
-    \caption{A top view of the SAMURAI spectrometer}
-\end{figure}
+\subsection{DALI}
 
 \subsection{SAMURAI Magnet}
+Charged particle decayed from ${}^{17}$B is detected by the SAMURAI detector system. After reaction at secondary target, the secondary beam ${}^{17}$B is dissociated to charged particle ${}^{15}$B and two neutrons. The charged particle ${}^{15}$B bent by SAMURAI superconducting dipole magnet. Its trajectory is recorded by FDC1 and FDC2 before and after SAMURAI. And the energy loss and time of flight is measured by HODF plastic scintillator after FDC2.
+
+
 
 \begin{table}[h]
     \centering 
@@ -217,29 +282,57 @@ The plastic scintillator HODscope is located behind FDC2 for measuring the TOF a
 \subsection{NEBULA}
 For measuring momentum vector of neutron, 
 
-\section{Electronics}
-\subsection{Run summary}
+\subsection{Geometry Information of SAMURAI Setup}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{chapter3/minakata-geometry-drawing_20131121.pdf}
+    \caption{Geometry information of SAMURAI setup}
+\end{figure}
+
+\section{Run summary}
 \begin{center}
     \begin{tabular}[h]{c|ccc}
         \hline
-        Run number& Target & Trigger & note\\
+        Run number& Target & Trigger & Note\\
         \hline
-        394 - 404 &  C (1.789 g/cm${}^{2}$)  & DSB(1/20) + B x N + D(1/1) &\\
+        394 - 404 &  C (1.789 g/cm${}^{2}$)  & DSB(1/20) $\cup$  B x N + D(1/1) &\\
         405 - 409 &  Empty  & DSB(1/20) + B x N + D(1/1) &\\
         410 - 427 &  Pb (3.255 g/cm${}^{2}$)  & DSB(1/20) + B x N + D(1/1) &\\
-        428 - 431 & Pb (3.255 g/cm${}^{2}$)  & DSB(1/20) + B x N + D(1/1) & F5 slit $\pm$1mm \\
+        428, 429, 431 & Pb (3.255 g/cm${}^{2}$)  & DSB(1/1) & F5 slit $\pm$1mm \\
+        430 & Pb (3.255 g/cm${}^{2}$)  & DSB(1/1) & F5 slit $\pm$5mm \\
         \hline
     \end{tabular}
 \end{center}
 
-\subsection{Trigger condition}
-There are four triggers condition which are used in this experiment; DSB, B$\times$N, B$\times$N, B$\times$N. They are defined as follows.
+\section{Electronics}
+\subsection{Data Acquisition System and Trigger condition}
+There are four trigger conditions used in this experiment; DSB, B $\cap$ N, B $\cap$ N, B $\cap$ N. They are defined as follows.
 \begin{enumerate}
-    \item \textbf{DBS} (Down Scale Beam) 
-    \item \textbf{B$\times$N} (Coincidence between Beam and NEBULA)
-    \item \textbf{B$\times$D} (Coincidence between Beam and DALI)
-    \item \textbf{B$\times$H} (Coincidence between Beam and HODF)
+    \item \textbf{DSB} (Down Scale Beam) 
+    \item \textbf{B $\cap$ N} (Coincidence between Beam and NEBULA)
+    \item \textbf{B $\cap$ D} (Coincidence between Beam and DALI)
+    \item \textbf{B $\cap$ H} (Coincidence between Beam and HODF)
 \end{enumerate} 
+
+\begin{figure}[h]
+    \centering
+    \hspace{1cm}
+    \includegraphics[width=12cm]{chapter3/Beam_Trigger.png}
+    \caption{Logic Diagram for Beam Trigger}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=12cm]{chapter3/NEB_Trigger.png}
+    \caption{Logic Diagram for Beam Trigger}    
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=8cm]{chapter3/DALI_Trigger.png}
+    \caption{Logic Diagram for Beam Trigger}
+\end{figure}
 
 \subsection{Live Time}
 The DAQ readout rate is limited by the dead time of the DAQ sub-system. And the dead time depends on the trigger condition and the target.  
@@ -247,7 +340,7 @@ The DAQ readout rate is limited by the dead time of the DAQ sub-system. And the 
     \centering
     \begin{tabular}{c|c|cc}
         \hline
-        Run number & target & DBS & B $\times$ N  \\
+        Run number & target & DSB & B $\cap$ N, B $\cap$ D \\
         \hline
         394 - 404 & C & 0.843 & 0.815 \\
         405 - 409 & Empty & 0.890 & 0.854 \\

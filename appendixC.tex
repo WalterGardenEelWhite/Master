@@ -1,0 +1,308 @@
+\chapter{Intrinsic Resolution of Drift Chambers}
+\section{One-dimensional tracking}
+
+\begin{itemize}
+    \item $z_i$ : $z$-position at $i$-th layer
+    \item $x_i$ : measured $x$-position at $i$-th layer
+    \item N : number of planes
+    \item $x_0$, $a_0$ : position and angle at the center of chamber ($z$ = 0) determined by fitting
+    \item $\Delta x_i$ : position resolution of $i$-th layer
+    \item $\Delta x_0$, $\Delta a_0$ : position and angle resolution of drift chamber
+\end{itemize}
+
+For one-dimensional tracking, a track is calculated by
+\begin{align}
+    x_0 &= \frac{\sum z_i^2 \sum x_i - \sum x_iz_i \sum z_i}{N \sum z_i^2 - (\sum z_i)^2} \\ 
+    a_0 &= \frac{N \sum x_iz_i - \sum x_i \sum z_i}{N \sum z_i^2 - (\sum z_i)^2}
+\end{align}
+This equations can be simplified as
+\begin{align}
+    x_0 &= \frac{S_{z^2} S_x - S_{zx} S_z}{D} \\
+    a_0 &= \frac{N S_{zx} - S_x S_z}{D}
+\end{align}
+by defining
+\begin{align}
+    &S_x = \sum x_i\\ 
+    &S_z = \sum z_i\\
+    &S_{z^2} = \sum z_i^2\\
+    &S_{zx} = \sum x_iz_i\\ 
+    &D = N \sum z_i^2 - (\sum z_i)^2
+\end{align}
+
+\section{Error Propagation}
+The position and angle resolution at the center of chamber can be calculated by error propagation of resolution of each layer $\Delta x_i$.
+\begin{align}
+    \Delta x_0^2 = \sum_{i=1}^N \bigg( \frac{\partial x_0}{\partial x_i} \bigg)^2 \Delta x_i^2
+    \label{propagarion}
+\end{align}
+And the resolution can be estimated to be
+\begin{align}
+    \Delta x_0 &= \Delta x \sqrt{S_{z^2} / D} \\
+    \Delta a_0 &= \Delta x \sqrt{N / D}
+\end{align}
+with the assumption that $\Delta x_i = \Delta x$ for all $i$.
+
+\section{Resolution and residual distribution}
+Residual at $i$-th layer is defined as
+\begin{align}
+    r_i &= x_i - (x_0 + a_0 z_i) \\
+        &= x_i - \frac{1}{D}(S_{z^2} S_x - S_{zx} S_z + z_i N S_{zx} - z_i S_z S_x)
+\end{align}
+By calculating the error propagation from eq.(\ref{propagarion}), we can obtain the relation between resolution of one layer $\Delta x$ and width of residual distribution $\Delta r_i$.
+\begin{align}
+    \Delta r_i = \Delta x \sqrt{1 - \frac{1}{D} (S_{z^2} - 2z_i S_z + N z_i^2)}
+\end{align}
+
+\section{Resolution evaluation from one-dimensional tracking}
+
+\subsection{X and Y plane of BDCs}
+\begin{table}[h]
+\centering
+    \begin{tabular}{l|cc}
+    \hline
+    BDC1 X  & $\Delta r_i$ & $\Delta x_i$     \\
+    \hline
+    X1 (z=-14.4)& 0.1573 & 0.2544      \\
+    X2 (z=-9.6) & 0.2051 & 0.2610      \\
+    X3 (z=+4.8) & 0.2096 & 0.2667      \\
+    X4 (z=+9.6) & 0.1608 & 0.2600 \\
+    \hline
+        Average &        & 0.2605  \\
+    \hline
+\end{tabular}
+\begin{tabular}{l|cc}
+    \hline
+     BDC1 Y & $\Delta r_i$ & $\Delta y_i$ \\
+    \hline
+         Y1 (z=-4.8) & 0.1591 & 0.2573 \\
+         Y2 (z=0)    & 0.2085 & 0.2653 \\
+         Y3 (z=+14.4)& 0.2108 & 0.2682 \\
+         Y4 (z=+19.2)& 0.1620 & 0.2620 \\
+    \hline
+             Average &        & 0.2632 \\
+    \hline
+    \end{tabular}
+    \caption{Width of residue and resolution for each BDC1 plane}
+\end{table}
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{l|cc}
+    \hline
+    BDC2 X & $\Delta r_i$ & $\Delta x_i$     \\
+    \hline
+    X1 (z=-14.4)&  0.1637 & 0.2648      \\
+    X2 (z=-9.6) &  0.2177 & 0.2770      \\
+    X3 (z=+4.8) &  0.2259 & 0.2874      \\
+    X4 (z=+9.6) &  0.1707 & 0.2761      \\
+    \hline
+        Average &         & 0.2763 \\
+    \hline
+    \end{tabular}
+    \begin{tabular}{l|cc}
+    \hline
+     BDC2 Y   & $\Delta r_i$ & $\Delta y_i$ \\
+    \hline
+         Y1 (z=-4.8)  & 0.1720 & 0.2782 \\
+         Y2 (z=0)     & 0.2262 & 0.2878 \\
+         Y3 (z=+14.4) & 0.2241 & 0.2852 \\
+         Y4 (z=+19.2) & 0.1709 & 0.2764 \\
+    \hline
+         Average      &        & 0.2819 \\
+    \hline
+    \end{tabular}
+    \caption{Width of residue and resolution for each BDC2 plane}
+\end{table}
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{c|cc}
+        \hline
+                &  $\Delta x_0$ & $\Delta y_0$\\
+            \hline
+            BDC1 & 0.1340 & 0.1627\\
+            BDC2 & 0.1422 & 0.1743\\
+            \hline
+    \end{tabular}
+    \begin{tabular}{c|cc}
+    \hline
+        & $\Delta a_0$ & $\Delta b_0$ \\
+        \hline
+        BDC1 & 0.01316 & 0.01330 \\
+        BDC2 & 0.01396 & 0.01424 \\
+        \hline
+    \end{tabular}
+    \caption{Position and angular resolution of BDC1 and BDC2}
+\end{table}
+
+\subsection{X plane of FDCs}
+\begin{table}[h]
+    \centering
+\begin{tabular}{l|cc}
+    \hline
+    FDC1 X & $\Delta r_i$ & $\Delta x_i$ \\
+    \hline 
+    X1 ($z=-65$) &  0.2854 & 0.3872      \\
+    X2 ($z=-55$) &  0.3146 & 0.3978      \\
+    X3 ($z=-5$)  &  0.2841 & 0.3115      \\
+    X4 ($z=+5$)  &  0.2892 & 0.3171      \\
+    X5 ($z=+55$) &  0.3302 & 0.4176      \\
+    X6 ($z=-65$) &  0.3138 & 0.4258      \\
+    \hline
+    Average & & 0.3762 \\
+    \hline
+\end{tabular}
+\begin{tabular}{l|cc}
+    \hline
+    FDC2 X & $\Delta r_i$ & $\Delta x_i$ \\
+    \hline 
+    X1 ($z=-308.66$) &  0.3185 & 0.4222      \\
+    X2 ($z=-291.34$) &  0.3448 & 0.4459      \\
+    X3 ($z=-8.66$)   &  0.4450 & 0.4875      \\
+    X4 ($z=+8.66$)   &  0.2978 & 0.3262      \\
+    X5 ($z=+291.34$) &  0.3031 & 0.3920      \\
+    X6 ($z=-308.66$) &  0.2889 & 0.3830      \\
+    \hline
+    Average & & 0.4095\\
+    \hline
+\end{tabular}
+\caption{Width of residue and resolution for X plane of FDC1 (left) and FDC2 (right)}
+\end{table}
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{c|cc}
+        \hline
+            & $\Delta x_0$ & $\Delta a_0$ \\
+            \hline
+            FDC1 & 0.1545 & 0.01330 \\
+            FDC2 & 0.1671 & 0.00068 \\
+            \hline
+    \end{tabular}
+    \caption{X direction position and angular resolution of FDC1 and FDC2}
+\end{table}
+
+\section{X-U-V plane tracking}
+Tracking using U ($\alpha$ angle) and V ($-\alpha$ angle) plane. The least square method in this case becomes the following matrix equation:
+
+\begin{align}
+    \vec{x} = M^{-1} \vec{a},
+\end{align}
+where the symmetric matrix $M$ and the vector $\vec{a}$, $\vec{x}$ are defined as
+
+\begin{adjustwidth}{-2.5cm}{-1.5cm}    
+\begin{align}
+    M &= \begin{pmatrix}
+            N_x + \cos^2 \alpha (N_u + N_v) & S_{z(x)} + \cos^2 \alpha (S_{z(u)} + S_{z(v)}) & \sin \alpha \cos \alpha (N_u - N_v) & \sin \alpha \cos \alpha (S_{z(u)} - S_{z(v)}) \\
+            \cdot & S_{zz(x)} + \cos^2 \alpha (S_{zz(u)} + S_{zz(v)}) & \sin \alpha \cos \alpha (S_{z(u)} - S_{z(v)}) & \sin \alpha \cos \alpha (S_{zz(u)} - S_{zz(v)}) \\
+            \cdot & \cdot & \sin^2 \alpha (N_u + N_v) & \sin^2 \alpha (S_{z(u)} + S_{z(v)}) \\
+            \cdot & \cdot & \cdot & \sin^2 \alpha (S_{zz(u)} + S_{zz(v)})
+        \end{pmatrix} \\
+    \vec{a} &= \begin{pmatrix}
+            S_x + \cos \alpha (S_u + S_v) & S_{xz} + \cos \alpha (S_{uz} + S_{vz}) &
+            \sin \alpha (S_u - S_v) & \sin \alpha (S_uz - S_vz)
+        \end{pmatrix}^T \\
+    \vec{x} &= \begin{pmatrix}
+            x_0 & a_0 & y_0 & b_0
+        \end{pmatrix}^T
+\end{align}
+\end{adjustwidth}
+
+Then we can calculate the resolution as follows:
+
+\begin{align}
+\Delta x^2_0 &= \sum_{k}\bigg( \frac{\partial x_0}{\partial x_k} \bigg)^2 \Delta x_k^2 \\
+            &= \Delta x^2 \sum_{k} \bigg( \frac{\partial \sum M^{-1}_{1j} a_j}{\partial x_k}\bigg)^2\\
+            &= \Delta x^2 \sum_{j_1,j_2} M^{-1}_{1j_1} M^{-1}_{1j_2} \sum_k \frac{\partial\sum a_{j_1}}{\partial x_k} \frac{\partial \sum a_{j_2}}{\partial x_k}   \\
+            &= \Delta x^2 \sum_{j_1,j_2} M^{-1}_{1j_1} M^{-1}_{1j_2} M_{j_1j_2}\\
+            &= \Delta x^2 M^{-1}_{11},\\ 
+\therefore \Delta \vec{x}_i &= \Delta x^2 (M^{-1})_{ii},
+\end{align}
+since,
+\begin{align}
+    \sum_k \frac{\partial \sum a_{j_1}}{\partial x_k} \frac{\partial \sum a_{j_2}}{\partial x_k} = M_{j_1j_2}.
+\end{align}
+\clearpage
+
+\section{Resolution of evaluation from X-U-V plane tracking}
+
+\subsection{FDCs}
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{l|cc}
+    \hline
+      FDC1 U  & $\Delta r_i$ & $\Delta u_i$  \\
+    \hline
+        U1 (z=-25) &  0.2572 & 0.3974       \\
+        U2 (z=-15) &  0.2781 & 0.3648      \\
+        U3 (z=+35) &  0.3171 & 0.4160     \\
+        U4 (z=+45) &  0.3163 & 0.4887      \\
+    \hline
+    Average &        &   0.4167 \\
+    \hline
+    \end{tabular}
+    \begin{tabular}{l|cc}
+    \hline
+      FDC1V  & $\Delta r_i$ & $\Delta v_i$ \\
+    \hline
+        V1 (z=-45) & 0.2920 & 0.4512 \\
+        V2 (z=-35) & 0.2951 & 0.3871 \\
+        V3 (z=+15) & 0.2973 & 0.3900 \\
+        V4 (z=+25) & 0.2772 & 0.4283 \\
+    \hline
+    Average &        & 0.4142 \\
+    \hline
+    \end{tabular}
+    \caption{Width of residue and resolution for U and V plane of FDC1}
+\end{table}
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{l|cc}
+    \hline
+       FDC2 U  & $\Delta r_i$ & $\Delta u_i$  \\
+    \hline
+        U1 (z=-208.66) & 0.3234 & 0.4711     \\
+        U2 (z=-191.34) & 0.3509 & 0.4825     \\
+        U3 (z=+91.34)  & 0.3779 & 0.5197     \\
+        U4 (z=+108.66) & 0.3500 & 0.5098     \\
+    \hline
+    Average &        &  0.4958 \\
+    \hline
+    \end{tabular}
+    \begin{tabular}{l|cc}
+    \hline
+     FDC2 V   & $\Delta r_i$ & $\Delta v_i$ \\
+    \hline
+         V1 (z=-108.66) & 0.3835 & 0.5586 \\
+         V2 (z=-91.34)  & 0.4221 & 0.5804 \\
+         V3 (z=+191.34) & 0.3460 & 0.4758 \\
+         V4 (z=+208.66) & 0.3210 & 0.4676 \\
+    \hline
+    Average &        & 0.5206 \\
+    \hline
+    \end{tabular}
+    \caption{Width of residue and resolution for U and V plane of FDC2}
+\end{table}
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{c|cc}
+        \hline
+                &  $\Delta x_0$ & $\Delta y_0$\\
+            \hline
+            FDC1 & 0.1239 & 0.2944 \\
+            FDC2 &  0.1450 & 0.3443\\
+            \hline
+    \end{tabular}
+    \begin{tabular}{c|cc}
+    \hline
+        & $\Delta a_0$ & $\Delta b_0$ \\
+        \hline
+        FDC1 & 0.00289 & 0.00948\\
+        FDC2 & 0.00068 & 0.00224 \\
+        \hline
+    \end{tabular}
+    \caption{Position and angular resolution of FDC1 and FDC2}
+\end{table}
