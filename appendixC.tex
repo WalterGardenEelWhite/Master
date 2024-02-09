@@ -1,5 +1,5 @@
 \chapter{Intrinsic Resolution of Drift Chambers}
-\section{One-dimensional tracking}
+\section{One-dimensional Tracking}
 
 \begin{itemize}
     \item $z_i$ : $z$-position at $i$-th layer
@@ -42,7 +42,7 @@ And the resolution can be estimated to be
 \end{align}
 with the assumption that $\Delta x_i = \Delta x$ for all $i$.
 
-\section{Resolution and residual distribution}
+\section{Resolution and Residual Distribution}
 Residual at $i$-th layer is defined as
 \begin{align}
     r_i &= x_i - (x_0 + a_0 z_i) \\
@@ -53,14 +53,14 @@ By calculating the error propagation from eq.(\ref{propagarion}), we can obtain 
     \Delta r_i = \Delta x \sqrt{1 - \frac{1}{D} (S_{z^2} - 2z_i S_z + N z_i^2)}
 \end{align}
 
-\section{Resolution evaluation from one-dimensional tracking}
+\section{Resolution Evaluation from One-dimensional Tracking}
 
 \subsection{X and Y plane of BDCs}
 \begin{table}[h]
 \centering
     \begin{tabular}{l|cc}
     \hline
-    BDC1 X  & $\Delta r_i$ & $\Delta x_i$     \\
+    BDC1 X [mm]& $\Delta r_i$ & $\Delta x_i$     \\
     \hline
     X1 (z=-14.4)& 0.1573 & 0.2544      \\
     X2 (z=-9.6) & 0.2051 & 0.2610      \\
@@ -72,7 +72,7 @@ By calculating the error propagation from eq.(\ref{propagarion}), we can obtain 
 \end{tabular}
 \begin{tabular}{l|cc}
     \hline
-     BDC1 Y & $\Delta r_i$ & $\Delta y_i$ \\
+     BDC1 Y [mm]& $\Delta r_i$ & $\Delta y_i$ \\
     \hline
          Y1 (z=-4.8) & 0.1591 & 0.2573 \\
          Y2 (z=0)    & 0.2085 & 0.2653 \\
@@ -89,7 +89,7 @@ By calculating the error propagation from eq.(\ref{propagarion}), we can obtain 
     \centering
     \begin{tabular}{l|cc}
     \hline
-    BDC2 X & $\Delta r_i$ & $\Delta x_i$     \\
+    BDC2 X [mm]& $\Delta r_i$ & $\Delta x_i$     \\
     \hline
     X1 (z=-14.4)&  0.1637 & 0.2648      \\
     X2 (z=-9.6) &  0.2177 & 0.2770      \\
@@ -101,7 +101,7 @@ By calculating the error propagation from eq.(\ref{propagarion}), we can obtain 
     \end{tabular}
     \begin{tabular}{l|cc}
     \hline
-     BDC2 Y   & $\Delta r_i$ & $\Delta y_i$ \\
+     BDC2 Y [mm] & $\Delta r_i$ & $\Delta y_i$ \\
     \hline
          Y1 (z=-4.8)  & 0.1720 & 0.2782 \\
          Y2 (z=0)     & 0.2262 & 0.2878 \\
@@ -118,7 +118,7 @@ By calculating the error propagation from eq.(\ref{propagarion}), we can obtain 
     \centering
     \begin{tabular}{c|cc}
         \hline
-                &  $\Delta x_0$ & $\Delta y_0$\\
+                &  $\Delta x_0$ [mm] & $\Delta y_0$ [mm]\\
             \hline
             BDC1 & 0.1340 & 0.1627\\
             BDC2 & 0.1422 & 0.1743\\
@@ -126,7 +126,7 @@ By calculating the error propagation from eq.(\ref{propagarion}), we can obtain 
     \end{tabular}
     \begin{tabular}{c|cc}
     \hline
-        & $\Delta a_0$ & $\Delta b_0$ \\
+        & $\Delta a_0$ [rad] & $\Delta b_0$ [rad] \\
         \hline
         BDC1 & 0.01316 & 0.01330 \\
         BDC2 & 0.01396 & 0.01424 \\
@@ -140,7 +140,7 @@ By calculating the error propagation from eq.(\ref{propagarion}), we can obtain 
     \centering
 \begin{tabular}{l|cc}
     \hline
-    FDC1 X & $\Delta r_i$ & $\Delta x_i$ \\
+    FDC1 X [mm]& $\Delta r_i$ & $\Delta x_i$ \\
     \hline 
     X1 ($z=-65$) &  0.2854 & 0.3872      \\
     X2 ($z=-55$) &  0.3146 & 0.3978      \\
@@ -154,7 +154,7 @@ By calculating the error propagation from eq.(\ref{propagarion}), we can obtain 
 \end{tabular}
 \begin{tabular}{l|cc}
     \hline
-    FDC2 X & $\Delta r_i$ & $\Delta x_i$ \\
+    FDC2 X [mm]& $\Delta r_i$ & $\Delta x_i$ \\
     \hline 
     X1 ($z=-308.66$) &  0.3185 & 0.4222      \\
     X2 ($z=-291.34$) &  0.3448 & 0.4459      \\
@@ -173,7 +173,7 @@ By calculating the error propagation from eq.(\ref{propagarion}), we can obtain 
     \centering
     \begin{tabular}{c|cc}
         \hline
-            & $\Delta x_0$ & $\Delta a_0$ \\
+            & $\Delta x_0$ [mm] & $\Delta a_0$ [rad]\\
             \hline
             FDC1 & 0.1545 & 0.01330 \\
             FDC2 & 0.1671 & 0.00068 \\
@@ -182,7 +182,7 @@ By calculating the error propagation from eq.(\ref{propagarion}), we can obtain 
     \caption{X direction position and angular resolution of FDC1 and FDC2}
 \end{table}
 
-\section{X-U-V plane tracking}
+\section{X-U-V plane Tracking}
 Tracking using U ($\alpha$ angle) and V ($-\alpha$ angle) plane. The least square method in this case becomes the following matrix equation:
 
 \begin{align}
@@ -224,7 +224,7 @@ since,
 \end{align}
 \clearpage
 
-\section{Resolution of evaluation from X-U-V plane tracking}
+\section{Resolution Evaluation from X-U-V plane Tracking}
 
 \subsection{FDCs}
 
@@ -232,7 +232,7 @@ since,
     \centering
     \begin{tabular}{l|cc}
     \hline
-      FDC1 U  & $\Delta r_i$ & $\Delta u_i$  \\
+      FDC1 U [mm] & $\Delta r_i$ & $\Delta u_i$  \\
     \hline
         U1 (z=-25) &  0.2572 & 0.3974       \\
         U2 (z=-15) &  0.2781 & 0.3648      \\
@@ -244,7 +244,7 @@ since,
     \end{tabular}
     \begin{tabular}{l|cc}
     \hline
-      FDC1V  & $\Delta r_i$ & $\Delta v_i$ \\
+      FDC1V [mm] & $\Delta r_i$ & $\Delta v_i$ \\
     \hline
         V1 (z=-45) & 0.2920 & 0.4512 \\
         V2 (z=-35) & 0.2951 & 0.3871 \\
@@ -261,7 +261,7 @@ since,
     \centering
     \begin{tabular}{l|cc}
     \hline
-       FDC2 U  & $\Delta r_i$ & $\Delta u_i$  \\
+       FDC2 U [mm] & $\Delta r_i$ & $\Delta u_i$  \\
     \hline
         U1 (z=-208.66) & 0.3234 & 0.4711     \\
         U2 (z=-191.34) & 0.3509 & 0.4825     \\
@@ -273,7 +273,7 @@ since,
     \end{tabular}
     \begin{tabular}{l|cc}
     \hline
-     FDC2 V   & $\Delta r_i$ & $\Delta v_i$ \\
+     FDC2 V [mm]  & $\Delta r_i$ & $\Delta v_i$ \\
     \hline
          V1 (z=-108.66) & 0.3835 & 0.5586 \\
          V2 (z=-91.34)  & 0.4221 & 0.5804 \\
@@ -290,7 +290,7 @@ since,
     \centering
     \begin{tabular}{c|cc}
         \hline
-                &  $\Delta x_0$ & $\Delta y_0$\\
+                &  $\Delta x_0$ [mm] & $\Delta y_0$ [mm]\\
             \hline
             FDC1 & 0.1239 & 0.2944 \\
             FDC2 &  0.1450 & 0.3443\\
@@ -298,7 +298,7 @@ since,
     \end{tabular}
     \begin{tabular}{c|cc}
     \hline
-        & $\Delta a_0$ & $\Delta b_0$ \\
+        & $\Delta a_0$ [rad] & $\Delta b_0$ [rad]\\
         \hline
         FDC1 & 0.00289 & 0.00948\\
         FDC2 & 0.00068 & 0.00224 \\

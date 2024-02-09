@@ -1,22 +1,43 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces BigRIPS separator setup for Dayone experiment \blx@tocontentsinit {0}\cite {Dayonelog}\relax }}{9}{table.caption.14}%
-\contentsline {table}{\numberline {3.2}{\ignorespaces Plastic Scintillators at F3, F7, F13\relax }}{10}{table.caption.15}%
-\contentsline {table}{\numberline {3.3}{\ignorespaces Parameter of BPC (Beam Proportional Chamber)\relax }}{10}{table.caption.16}%
-\contentsline {table}{\numberline {3.4}{\ignorespaces Parameter of FDC1\relax }}{11}{table.caption.22}%
-\contentsline {table}{\numberline {3.5}{\ignorespaces Parameter of FDC2\relax }}{12}{table.caption.23}%
-\contentsline {table}{\numberline {3.6}{\ignorespaces Parameter of HODF\relax }}{12}{table.caption.24}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Information of primary beam\relax }}{17}{table.caption.18}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Information of secondary beam\relax }}{18}{table.caption.19}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces BigRIPS separator setup for Dayone experiment \cite {Dayonewiki}\relax }}{19}{table.caption.21}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces Information of plastic scintillators at F3, F7, F13\relax }}{19}{table.caption.22}%
+\contentsline {table}{\numberline {3.5}{\ignorespaces Parameter of BPC (Beam Proportional Chamber) \cite {SAMURAI}\relax }}{20}{table.caption.25}%
+\contentsline {table}{\numberline {3.6}{\ignorespaces Parameter of ICB (Ion Chamber for Beam) \cite {SAMURAI}\relax }}{23}{table.caption.27}%
+\contentsline {table}{\numberline {3.7}{\ignorespaces Parameter of BDC (Beam Drift Chamber) \cite {SAMURAI}\relax }}{25}{table.caption.30}%
+\contentsline {table}{\numberline {3.8}{\ignorespaces Parameter of SAMURAI Magnet \cite {SAMURAI}\relax }}{25}{table.caption.31}%
+\contentsline {table}{\numberline {3.9}{\ignorespaces Parameter of FDC1 (Forward Drift Chamber 1) \cite {SAMURAI}\relax }}{28}{table.caption.34}%
+\contentsline {table}{\numberline {3.10}{\ignorespaces Parameter of FDC2 (Forward Drift Chamber 2) \cite {SAMURAI}\relax }}{28}{table.caption.35}%
+\contentsline {table}{\numberline {3.11}{\ignorespaces Parameter of HODF (HODscope for Fragment) \cite {SAMURAI}\relax }}{28}{table.caption.36}%
+\contentsline {table}{\numberline {3.12}{\ignorespaces Parameter of NEBULA \cite {SAMURAI}\relax }}{30}{table.caption.38}%
+\contentsline {table}{\numberline {3.13}{\ignorespaces Run summary for experiment\cite {Dayonewiki}\relax }}{32}{table.caption.41}%
+\contentsline {table}{\numberline {3.14}{\ignorespaces Live time of each reaction trigger\relax }}{34}{table.caption.45}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Information of Primary Beam\relax }}{17}{table.caption.25}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Information of Secondary Beam\relax }}{18}{table.caption.26}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces Statistic of Secondary Beam\relax }}{19}{table.caption.27}%
-\contentsline {table}{\numberline {4.4}{\ignorespaces TDC Window Condition of BDCs}}{20}{table.caption.31}%
-\contentsline {table}{\numberline {4.5}{\ignorespaces TDC Window Condition of FDCs}}{22}{table.caption.36}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Statistic of secondary beam\relax }}{39}{table.caption.47}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces TDC integration ranges of BDCs}}{40}{table.caption.50}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Position and Angular Resolution of BDCs\relax }}{41}{table.caption.55}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces TDC integration range of FDCs}}{45}{table.caption.57}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Position and angular resolution of FDCs\relax }}{47}{table.caption.61}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces The Geant4 simulation condition for cross-talk rejection\relax }}{51}{table.caption.67}%
+\contentsline {table}{\numberline {4.7}{\ignorespaces The cross talk residual rate evaluation\relax }}{55}{table.caption.74}%
+\contentsline {table}{\numberline {4.8}{\ignorespaces The Geant4 simulation condition for two-neutron detection efficiency and acceptance\relax }}{55}{table.caption.75}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Reaction Cross Section of Boron Isotopes\relax }}{29}{table.caption.47}%
-\contentsline {table}{\numberline {5.2}{\ignorespaces Coulomb Dissociation Cross Section\relax }}{29}{table.caption.48}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces Inclusive cross section of $^{17}$B on Pb and C target\relax }}{62}{table.caption.82}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Coulomb dissociation cross section of ${}^{17}$B\relax }}{62}{table.caption.83}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {A.1}{\ignorespaces Material information between F7 to target\relax }}{71}{table.caption.88}%
+\contentsline {table}{\numberline {A.2}{\ignorespaces List of material between F7 to target\relax }}{73}{table.caption.90}%
+\contentsline {table}{\numberline {A.3}{\ignorespaces List of material between target to FDC1\relax }}{73}{table.caption.91}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {B.1}{\ignorespaces short}}{37}{table.caption.49}%
+\contentsline {table}{\numberline {B.1}{\ignorespaces Width of residue and resolution for each BDC1 plane\relax }}{79}{table.caption.94}%
+\contentsline {table}{\numberline {B.2}{\ignorespaces Width of residue and resolution for each BDC2 plane\relax }}{79}{table.caption.95}%
+\contentsline {table}{\numberline {B.3}{\ignorespaces Position and angular resolution of BDC1 and BDC2\relax }}{79}{table.caption.96}%
+\contentsline {table}{\numberline {B.4}{\ignorespaces Width of residue and resolution for X plane of FDC1 (left) and FDC2 (right)\relax }}{80}{table.caption.97}%
+\contentsline {table}{\numberline {B.5}{\ignorespaces X direction position and angular resolution of FDC1 and FDC2\relax }}{80}{table.caption.98}%
+\contentsline {table}{\numberline {B.6}{\ignorespaces Width of residue and resolution for U and V plane of FDC1\relax }}{82}{table.caption.99}%
+\contentsline {table}{\numberline {B.7}{\ignorespaces Width of residue and resolution for U and V plane of FDC2\relax }}{82}{table.caption.100}%
+\contentsline {table}{\numberline {B.8}{\ignorespaces Position and angular resolution of FDC1 and FDC2\relax }}{82}{table.caption.101}%

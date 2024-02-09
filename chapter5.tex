@@ -1,13 +1,17 @@
 \chapter{Result and Discussion}
-In this chapter, we discuss about the results obtained from data analysis. First, we discuss about the cross section of ${}^{17}$B. In this analysis, we extracted the inclusive 2n removal cross section and 4n removal cross section. After that, we discuss about the relative energy spectra for ${}^{16}$B +n and ${}^{15}$B + n + n at Pb and C target. Also the angular distribution of scattering angle for ${}^{17}$B $\to$ ${}^{15}$B + n + n with Pb and C target is discussed. Finally, the result of Coulomb dissociation and B(E1) spectrum are discussed. Dineutron correlation is also discussed in this chapter.
+In this chapter, we discuss about the results obtained from data analysis. First, we discuss about the inclusive cross section of ${}^{17}$B. In this analysis, we extracted the inclusive 2n removal cross section and 4n removal cross section. After that, we discuss about the relative energy spectra for ${}^{16}$B +n and ${}^{15}$B + n + n at Pb and C target. Finally, the result of Coulomb dissociation and B(E1) spectrum are discussed. Dineutron correlation is also discussed in this chapter.
 
-\section{Cross Section}
-\subsection{Inclusive Cross Section}
-The inclusive cross section of ${}^{17}$B is obtained by following formula.
+\section{Inclusive Cross Section}
+The inclusive cross section of ${}^{17}$B of $xn$ removal reaction is obtained by following formula \cite{NKobayashi}.
 \begin{align}
-    \sigma_{-xn} = \frac{\sigma_R - \sigma_R}{e^{-\sigma_R N_t} - e^{-\sigma_R N_t}} \bigg( \frac{N_{in}}{N_{in}} - \frac{N_{out}}{N_{out}}\bigg)
+    \sigma_{-xn} = \frac{\sigma_R - \sigma_R'}{e^{-\sigma_R' N_t} - e^{-\sigma_R N_t}} \bigg( \frac{N'_{in}}{N_{in}} - \frac{N'_{out}}{N_{out}}\bigg),
 \end{align}
-
+where $\sigma_R$ and $\sigma_R'$ is total reaction cross section of beam and fragment particle respectively, $N_t$ is the number of target per unit area. $N_{in}$ and $N'_{in}$ are number of beam and fragment for target-in runs respectively, and $N_{out}$ and $N'_{out}$ are number of beam and fragment for target-out runs. In this research, we assume that $\sigma_R \approx \sigma_{R'}$, then the formula can be simplified as
+\begin{align}
+    \sigma_{-xn} &= \frac{1}{N_t} \bigg( \frac{N'_{in}}{N_{in}} - \frac{N'_{out}}{N_{out}}\bigg).
+\end{align}
+The calculation results of 2$n$ and 4$n$ removal cross section for each C and Pb target are shown in Table \ref{tab:Inclusive Cross Section of Boron Isotopes}. The ratio between Pb and C target is also shown in the table. The ratio of 2n removal cross section between Pb and C target was 3.9 and the ratio of 4n removal cross section was 2.4. This result is significantly smaller than the one of ${}^{19}$B, which is 7.1. This result shows that there is less Coulomb dissociation enhancement in ${}^{17}$B than ${}^{19}$B.
+%We used the total reaction cross section for carbon target $\sigma_R(C)$ = 1118(22) mb\cite{Suzuki99} and for lead target $\sigma_R(Pb)$ = 4000(10) mb. 
 
 \begin{table}[h]
 \centering
@@ -18,44 +22,42 @@ The inclusive cross section of ${}^{17}$B is obtained by following formula.
     $^{17}$B + Pb& 617(21) & 154(11) \\ 
     $^{17}$B + C & 159(3) & 63(2) \\ 
     \hline 
-    $\sigma_{Pb}/\sigma_{C}$ & 3.9 & 2.4 \\ 
+    $\sigma_{Pb}/\sigma_{C}$ & 3.9 & 2.5 \\ 
     \hline
 \end{tabular}
-\caption{Reaction Cross Section of Boron Isotopes}
-\label{tab:Reaction Cross Section of Boron Isotopes}
+\caption{Inclusive cross section of $^{17}$B on Pb and C target}
+\label{tab:Inclusive Cross Section of Boron Isotopes}
 \end{table}
 
-\subsection{Coulomb Dissociation Cross Section}
-Coulomb dissociation cross section can be extracted by using the following equation.
-\begin{align}
-\sigma_{CD} = \sigma_{inel}(Pb) - \Gamma \sigma_{inel}(C)
-\end{align}
-We used $\Gamma = 2.836$ from theoretical calculation. \cite{Ogata} 
+\section{Coulomb Dissociation Cross Section}
+Coulomb dissociation cross section can be extracted by eq.(\ref{eq:CD}) from the inelastic reaction cross section for  Pb and C target. In this research, we used $\Gamma = 2.835$\cite{Ogata}. 
 
 \begin{table}[h]
     \centering
     \begin{tabular}[h]{c|c|c}
         \hline
-         & $\sigma$  $E{rel} < 6$ MeV& $\sigma_{C}$ $E{rel} < 10$ MeV \\
+         &  $E{rel} < 10$ MeV&  $E{rel} < 7$ MeV \\
         \hline
-        Pb &  609(14)(60) mb & 450(10)(33) mb  \\
-        C &  49(1)(8) mb & 32(1)(5) mb  \\
-        CD &  470()(8) mb & 360()(8) mb \\
+        $\sigma_{inel}$(Pb) &  519(13) mb & 479(11) mb  \\
+        $\sigma_{inel}$(C) &  47(1) mb & 35(1) mb  \\
+        $\sigma_{\text{CD}}$ &  458(14) mb & 381(11) mb \\
         \hline
     \end{tabular}
-\caption{Coulomb Dissociation Cross Section}
-\label{Coulomb Dissociation Cross Section}
+\caption{Coulomb dissociation cross section of ${}^{17}$B}
+\label{tab:CD}
 \end{table}
-In the Figure 5.1, the cross section for Pb and C target are shown. The blue dot is Pb target, and red dot is C target. The C target event is multiplied by $\Gamma$ Factor. In Figure 5.2, the coulomb dissociation cross section is shown. It has broad peak around 2 MeV.
+In Figure \ref{fig:Pb+C} shows the differential cross section distribution for ${}^{15}$B $+ n + n$ on Pb and C target. The blue dot is Pb target, and red dot is C target. The C target event is scaled by $\Gamma = 2.835$ Factor. Figure \ref{fig:CD} shows the Coulomb dissociation cross section. The Coulomb dissociation cross section is 458(14) mb for $E_{rel} < 10$ MeV and 381(11) mb for $E_{rel} < 7$ MeV. It has a high and broad peak at around 2$\sim$3 MeV. 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=11cm]{chapter5/coulomb_pb_c.png}    
-    \captionof{figure}{Cross Section}
+    \includegraphics[width=\textwidth]{chapter5/coulomb_pb_c.png}    
+    \caption[The differential cross section for ${}^{15}$B + n + n on Pb and C target]{The differential cross section for ${}^{15}$B + n + n on Pb and C target. The blue dot is Pb target, and red dot is C target. The C target event is multiplied by $\Gamma = 2.835$ factor.}
+    \label{fig:Pb+C}
 \end{figure}
 \begin{figure}[h]
     \centering
-    \includegraphics[width=13cm]{chapter5/dsigmadE.png}    
-    \captionof{figure}{Coulomb Dissociation Cross Section}
+    \includegraphics[width=\textwidth]{chapter5/dsigmadE.png}    
+    \captionof{figure}{Coulomb dissociation cross section of ${}^{17}$B}
+    \label{fig:CD}
 \end{figure}    
 \clearpage
 
@@ -64,35 +66,36 @@ About reduced dipole transition probability, we can extract $B(E1)$ strength as 
 \begin{align}
     \frac{d \sigma_{coul}}{dE_x} = \frac{16 \pi^{3} }{9 \hbar c} N_{\text{E1}}(E_x) \frac{dB(\text{E1})}{dE_x}
 \end{align}
-The virtual photon number is calculated by using the formula (2.5).
+The virtual photon number is calculated by using the eq.(\ref{eq:Virtual_Photon}).
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=10cm]{chapter5/virtual_photon_distribution.png}
     \captionof{figure}{Virtual Photon Number of ${}^{17}$B with 270 MeV/u at Pb Target}
 \end{figure}
-The reduced E1 transition probability B(E1) distribution is shown in Figure 5.3.
+The reduced E1 transition probability B(E1) distribution is shown in Figure \ref{fig:B(E1)}
 \begin{figure}[h]
     \centering
     \includegraphics[width=13cm]{chapter5/dBdEx.png}    
-    \captionof{figure}{B(E1) Strength}
+    \captionof{figure}{B(E1) strength of ${}^{17}$B}
+    \label{fig:B(E1)}
 \end{figure}  
 
 \begin{align}
     B(E1) &= \int_{0}^{+\inf} \frac{dB(E1)}{dE_x} dE_x \\
-          &\simeq \int_{0}^{+10} \frac{dB(E1)}{dE_x} dE_x = 2.04 \pm 0.10  [e^{2}fm^{2}] \\
-          \\ \notag
-          &\simeq \int_{0}^{+6} \frac{dB(E1)}{dE_x} dE_x = 1.16 \pm 0.05  [e^{2}fm^{2}] \\    
+          &\simeq \int_{0}^{+10} \frac{dB(E1)}{dE_x} dE_x = 2.00 \pm 0.10  [e^{2}fm^{2}] \\
+          &\simeq \int_{0}^{+7} \frac{dB(E1)}{dE_x} dE_x = 1.32 \pm 0.06  [e^{2}fm^{2}] 
 \end{align}  
 
 \section{Dineutron Correlation}
-
+Dineutron correlation can be calculated from $B(E1)_{tot}$ as follows.
 \begin{align}
-    B(E1) = \frac{3}{\pi} \bigg( \frac{Ze}{A} \bigg)^2 \langle r^{2}_{c-nn} \rangle
+    B(E1)_{tot} = \frac{3}{\pi} \bigg( \frac{Ze}{A} \bigg)^2 \langle r^{2}_{c-nn} \rangle
 \end{align}
-With the obtained $B(E1)$ strength up to 10 MeV, we can extract $\sqrt{ \langle r^{2}_{c-nn} \rangle}$ as follows.
+With the obtained $B(E1)$ strength up to 10 MeV and 7 MeV, we can extract $\sqrt{ \langle r^{2}_{c-nn} \rangle}$ respectively as follows.
 \begin{align}
-    \sqrt{ \langle r^{2}_{c-nn} \rangle} = 3.2 \pm 0.00 (stat.) \pm 0.00 (syst.) \text{ fm}
+    \sqrt{ \langle r^{2}_{c-nn} \rangle} = 4.11 \pm 0.02 (stat.) \text{ fm} \qquad (0<E_{rel}<10 MeV)\\
+    \sqrt{ \langle r^{2}_{c-nn} \rangle} = 3.34 \pm 0.02 (stat.) \text{ fm} \qquad (0<E_{rel}<7 MeV)
 \end{align}
 Furthermore, we can extract the distance of $2n$ from three body model.
 \begin{align}
@@ -100,9 +103,11 @@ Furthermore, we can extract the distance of $2n$ from three body model.
 \end{align}
 where $A$ and $A_c$ is the mass number of halo nucleus and core. $\langle r^{2}_{h} \rangle$ and $\langle r^{2}_{c} \rangle$ are the mean-square matter radius of halo nuclei and the core, which is 3.00(6) fm and 2.75(6) fm respectively.
 \begin{align}
-    \sqrt{ \langle r^{2}_{nn} \rangle} = 6.57 \pm 0.00 (stat.) \pm 0.00 (syst.) \text{ fm}
+    \sqrt{ \langle r^{2}_{nn} \rangle} &= 4.48 \pm 1.78 (stat.) \text{ fm} \qquad (0<E_{rel}<10 MeV)\\
+    \sqrt{ \langle r^{2}_{nn} \rangle} &= 6.34 \pm 1.78 (stat.) \text{ fm} \qquad (0<E_{rel}<7 MeV)
 \end{align}
 Finally, the mean opening angle of dineutron can be extracted as follows.
 \begin{align}
-    \langle \theta_{nn} \rangle = 91.5 \pm 0.00 (stat.) \pm 0.00 (syst.) \text{ deg.}
+    \langle \theta_{nn} \rangle = 56.6 \pm 19.4 (stat.) \text{ deg.} \qquad (0<E_{rel}<10 MeV) \\
+    \langle \theta_{nn} \rangle = 87.0 \pm 16.6 (stat.) \text{ deg.}\qquad (0<E_{rel}<7 MeV)
 \end{align}

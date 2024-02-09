@@ -1,29 +1,57 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Matter rms radius of He, Li, Be and C isotopes. ${}^{11}$Li has significantly large radius compared to other Li isotopes.\relax }}{2}{figure.caption.5}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces The B(E1) distribution of ${}^{19}$B. The peak at 0.5 MeV is the soft E1 excitation.\relax }}{3}{figure.caption.6}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Matter RMS radius of He, Li, Be and C isotopes\cite {Tanihata85}}}{2}{figure.caption.6}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces The momentum distribution of $^{6}$H and $^{9}$Li\cite {Kobayashi88}}}{3}{figure.caption.7}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces The rms radius of one-neutron halo for various separation energies and orbital angular momenta. \cite {Riisager}\relax }}{4}{figure.caption.8}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces The schematic representation of $E1$ response of (a) stable nuclei, (b) neutron-skin nuclei and (c) neutron halo nuclei. \cite {Nakamura17}\relax }}{5}{figure.caption.9}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces B(E1) distribution of $^{11}$Li \cite {Nakamura06}\relax }}{6}{figure.caption.10}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces The opening angle distribution in $^{11}$Li. \cite {Hagino05}\relax }}{7}{figure.caption.11}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces The B(E1) distribution of $^{19}$B\cite {KJCook} and the opening angle distribution of $^{19}$B\cite {Hagino05}}}{8}{figure.caption.12}%
+\contentsline {figure}{\numberline {1.8}{\ignorespaces The relative energy distribution of $^{16}$B.\cite {ZHYang}\relax }}{9}{figure.caption.13}%
+\contentsline {figure}{\numberline {1.9}{\ignorespaces The proton radii ($r_p$) and rms matter radii ($r_m$) of $^{12-17}$B. \cite {Estrade}\relax }}{10}{figure.caption.14}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Scheme of Coulomb Dissociation}}{5}{figure.caption.9}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Virtual Photon Spectra and E1 Modes}}{6}{figure.caption.10}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces The schematic representation of the giant dipole resonance and soft dipole mode\relax }}{7}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Schematic representation of Coulomb dissociation}}{12}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Virtual photon number $N_{E1}(E_x)$ spectra and $dB(E1)/dE_x$ spectrum for halo nucleus\cite {Nakamura23}}}{13}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Schematic representation of the invariant mass method\relax }}{16}{figure.caption.17}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces A top view of the BigRIPS separator\relax }}{10}{figure.caption.13}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces BPC (Beam Proportional Chamber) Assembly\relax }}{13}{figure.caption.17}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces ICB (Ion Chamber for Beam) Assembly\relax }}{14}{figure.caption.19}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces BDC (Beam Drift Chamber) Assembly\relax }}{15}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces A top view of the BigRIPS separator \cite {Dayonewiki}\relax }}{18}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces A top view of the beam line from BigRIPS to SAMURAI spectrometer\cite {BigRIPSInfo}\relax }}{20}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces A top view of the SAMURAI spectrometer\cite {SAMURAI}\relax }}{21}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Schematic view of BPC (Beam Proportional Chamber) \cite {SAMURAI}\relax }}{22}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Schematic view of ICB (Ion Chamber for Beam) \cite {SAMURAI}\relax }}{23}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Schematic view of BDC (Beam Drift Chamber) \cite {SAMURAI}\relax }}{24}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Schematic view of FDC1 (Forward Drift Chamber 1) \cite {SAMURAI}\relax }}{26}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Schematic view of FDC2 (Forward Drift Chamber 2) \cite {SAMURAI}\relax }}{27}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Schematic view of HODF (HODscope for Fragment) \cite {SAMURAI}\relax }}{29}{figure.caption.37}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Schematic view of NEBULA \cite {SAMURAI}\relax }}{30}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Geometry information of SAMURAI setup \cite {Dayonewiki}\relax }}{31}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Logic diagram for beam trigger\relax }}{33}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Logic diagram for NEBULA trigger\relax }}{33}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Logic diagram for DALI trigger\relax }}{34}{figure.caption.44}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Secondary Beam Particle Identification}}{19}{figure.caption.28}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces TDC Distribution of BDCs}}{20}{figure.caption.30}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces TDC Distribution of FDCs}}{22}{figure.caption.37}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Fragment Particle Identification from All Secondary Beam}}{23}{figure.caption.40}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Fragment Particle Identification from ${}^{17}$B Beam}}{23}{figure.caption.41}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces $2n$ Acceptance for $E_{rel}$ and $\theta _{scat}$}}{26}{figure.caption.43}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Relative Energy Spectrum of ${}^{15}\text {B} + 2n$ at Pb target\relax }}{27}{figure.caption.44}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Relative Energy Spectrum of ${}^{15}\text {B} + 2n$ at C target\relax }}{27}{figure.caption.45}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Relative Energy Spectrum of ${}^{16}\text {B} + n$ at C target\relax }}{28}{figure.caption.46}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Secondary beam particle identification}}{38}{figure.caption.46}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces TDC Distribution of BDCs}}{40}{figure.caption.51}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Tracking Residue Distribution of BDCs}}{42}{figure.caption.54}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces ${}^{17}$B Beam profile at target\relax }}{43}{figure.caption.56}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces TDC Distribution of FDCs}}{46}{figure.caption.58}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Tracking Residue Distribution of FDCs}}{46}{figure.caption.60}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Fragment particle identification}}{49}{figure.caption.65}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Fragment particle identification from ${}^{17}$B beam}}{49}{figure.caption.66}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Cross-talk simulation result of clustering event\relax }}{52}{figure.caption.69}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Cross-talk simulation result of same wall event\relax }}{53}{figure.caption.71}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Cross-talk simulation result for different wall event\relax }}{54}{figure.caption.73}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces $2n$ Acceptance for $E_{rel}$ and $\theta _{scat}$}}{56}{figure.caption.76}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces $2n$ detection efficiency for same wall and diff wall}}{56}{figure.caption.77}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Relative Energy Spectrum of ${}^{15}\text {B} + n + n$ at Pb target (left) and C target (right)\relax }}{58}{figure.caption.78}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Relative Energy Spectrum of ${}^{15}\text {B} + n$ at Pb target (left) and C target (right)\relax }}{58}{figure.caption.79}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Differential cross section of ${}^{15}\text {B} + n + n$ for Pb target (left) and C target (right)\relax }}{59}{figure.caption.80}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Differential cross section of ${}^{15}\text {B} + n$ at Pb target (left) and C target (right)\relax }}{59}{figure.caption.81}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Cross Section\relax }}{30}{figure.5.1}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Coulomb Dissociation Cross Section\relax }}{30}{figure.5.2}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces B(E1) Strength\relax }}{31}{figure.5.3}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces The differential cross section for ${}^{15}$B + n + n on Pb and C target}}{63}{figure.caption.84}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Coulomb dissociation cross section of ${}^{17}$B\relax }}{64}{figure.caption.85}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Virtual Photon Number of ${}^{17}$B with 270 MeV/u at Pb Target\relax }}{65}{figure.caption.86}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces B(E1) strength of ${}^{17}$B\relax }}{66}{figure.caption.87}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Energy development for $^{17}$B particle ($E_{\text {F5}} =$ 276.9 MeV/u) between F7 to Pb target\relax }}{74}{figure.caption.92}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Momentum push-back calculation for $^{15}$B fragment particle}}{75}{figure.caption.93}%
 \addvspace {10\p@ }

@@ -1,71 +1,82 @@
-\contentsline {chapter}{List of Figures}{5}{chapter*.3}%
-\contentsline {chapter}{List of Tables}{7}{chapter*.4}%
+\contentsline {chapter}{List of Figures}{7}{chapter*.4}%
+\contentsline {chapter}{List of Tables}{9}{chapter*.5}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Methods}{5}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Coulomb Dissociation}{5}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Cross Section Extraction}{6}{subsection.2.1.1}%
-\contentsline {section}{\numberline {2.2}Invariant Mass Method}{7}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Geometrical Correlation}{7}{section.2.3}%
-\contentsline {chapter}{\numberline {3}Experiment}{9}{chapter.3}%
-\contentsline {section}{\numberline {3.1}BigRIPS separator}{9}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Plastic Scintillator}{10}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}BPC (Beam Proportional Chamber)}{10}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}ICB (Ion Chamber for Beam)}{11}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}BDC1, BDC2 (Beam Drift Chamber)}{11}{subsection.3.1.4}%
-\contentsline {section}{\numberline {3.2}SAMURAI}{11}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}SAMURAI Magnet}{11}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}FDC1, FDC2 (Forward Drift Chamber)}{11}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}HODF (HODoscope for Fragment)}{11}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}NEBULA}{11}{subsection.3.2.4}%
-\contentsline {section}{\numberline {3.3}Electronics}{12}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Trigger and Livetime}{12}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}}{12}{subsection.3.3.2}%
-\contentsline {section}{\numberline {3.4}Run summary}{12}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Material between F7 to target}{12}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Secondary Target}{12}{section.3.6}%
-\contentsline {chapter}{\numberline {4}Data Analysis}{17}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Secondary Beam Particle Identification}{17}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Analysis of Time of Flight}{17}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Analysis of Magnetic Rigidity}{18}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Analysis of Energy Loss}{18}{subsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.1.4}Beam Particle Identification}{19}{subsection.4.1.4}%
-\contentsline {section}{\numberline {4.2}Beam Profile at Target}{20}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}BDC Calibration}{20}{subsection.4.2.1}%
-\contentsline {subsubsection}{TDC Distribution}{20}{section*.29}%
-\contentsline {subsubsection}{STC (Space Time Conversion) Function}{20}{section*.32}%
-\contentsline {subsubsection}{linear fitting of trajectory}{21}{section*.33}%
-\contentsline {subsubsection}{The resolution of BDCs}{21}{section*.34}%
-\contentsline {subsection}{\numberline {4.2.2}Beam Profile at Target}{21}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Beam beta calculation}{21}{subsection.4.2.3}%
-\contentsline {subsubsection}{Eloss Calculation}{21}{section*.35}%
-\contentsline {section}{\numberline {4.3}Analysis of charged fragment}{22}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}FDC를 이용한 위치 계산}{22}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Brho from Simulation}{22}{subsection.4.3.2}%
-\contentsline {subsubsection}{Simulation Using Monte Carlo Method}{22}{section*.38}%
-\contentsline {subsubsection}{Numerical Calculation}{22}{section*.39}%
-\contentsline {subsection}{\numberline {4.3.3}HODscope Z}{22}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.3.4}Fragment Particle Identification}{22}{subsection.4.3.4}%
-\contentsline {section}{\numberline {4.4}Analysis of Neutrons}{24}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Selection of One Neutron Events}{24}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Selection of Two Neutron Events}{24}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Clustering Event Subtraction}{25}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}same wall event}{25}{subsection.4.4.4}%
-\contentsline {subsubsection}{cluster proton cross-talk}{25}{section*.42}%
-\contentsline {subsection}{\numberline {4.4.5}different wall}{25}{subsection.4.4.5}%
-\contentsline {section}{\numberline {4.5}Cross-talk 잔존률 평가}{25}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Acceptance and Efficiency Correction}{25}{section.4.6}%
-\contentsline {section}{\numberline {4.7}Reconstruction of Invariant Mass}{26}{section.4.7}%
-\contentsline {section}{\numberline {4.8}Relative Energy Spectrum}{26}{section.4.8}%
-\contentsline {section}{\numberline {4.9}Exclusive Cross Section}{26}{section.4.9}%
-\contentsline {chapter}{\numberline {5}Result and Discussion}{29}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Inclusive Cross Section}{29}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Neutron Removal Cross Section}{29}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Relative Energy Spectrum}{29}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Coulomb Dissociation Cross Section}{29}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Dineutron Correlation}{31}{section.5.5}%
-\contentsline {chapter}{\numberline {6}Conclusion}{33}{chapter.6}%
-\contentsline {chapter}{\numberline {A}Equations}{35}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Bethe-Bloch Formula}{35}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Equivalent Photon Method}{35}{section.A.2}%
-\contentsline {chapter}{\numberline {B}Appendix B}{37}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Resolution Evaluation}{37}{section.B.1}%
+\contentsline {section}{\numberline {1.1}Overview of Neutron Halo Nuclei}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}The Halo Structure of ${}^{17}$B}{7}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Methods}{11}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Coulomb Dissociation}{11}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Equivalent Photon Method}{11}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Geometry of Two Neutron Halo and Dineutron Correlation}{14}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Contribution of Nuclear Breakup}{14}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Invariant Mass Method}{15}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Experiment}{17}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Beam Information}{17}{section.3.1}%
+\contentsline {section}{\numberline {3.2}BigRIPS separator}{18}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Plastic Scintillator}{19}{subsection.3.2.1}%
+\contentsline {section}{\numberline {3.3}SAMURAI}{20}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}BPC (Beam Proportional Chamber)}{20}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}ICB (Ion Chamber for Beam)}{23}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}BDC1, BDC2 (Beam Drift Chamber)}{23}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}DALI2}{25}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}SAMURAI Magnet}{25}{subsection.3.3.5}%
+\contentsline {subsection}{\numberline {3.3.6}FDC1, FDC2 (Forward Drift Chamber)}{25}{subsection.3.3.6}%
+\contentsline {subsection}{\numberline {3.3.7}HODF (HODoscope for Fragment)}{28}{subsection.3.3.7}%
+\contentsline {subsection}{\numberline {3.3.8}NEBULA}{29}{subsection.3.3.8}%
+\contentsline {subsection}{\numberline {3.3.9}Geometry Information of SAMURAI Setup}{29}{subsection.3.3.9}%
+\contentsline {section}{\numberline {3.4}Run Summary}{32}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Electronics}{32}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Data Acquisition System and Trigger condition}{32}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Live Time}{34}{subsection.3.5.2}%
+\contentsline {chapter}{\numberline {4}Data Analysis}{35}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Secondary Beam Particle Identification}{35}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Time of Flight}{36}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Magnetic Rigidity}{36}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Energy Loss}{37}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}Beam Particle Identification}{38}{subsection.4.1.4}%
+\contentsline {section}{\numberline {4.2}Beam Profile at Target}{38}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}BDC Calibration}{39}{subsection.4.2.1}%
+\contentsline {subsubsection}{TDC (Time to Digital Converter) Distribution}{39}{section*.48}%
+\contentsline {subsubsection}{STC (Space to Time Conversion) Function}{39}{section*.49}%
+\contentsline {subsubsection}{Linear fitting of trajectory}{41}{section*.52}%
+\contentsline {subsubsection}{The resolution of BDCs}{41}{section*.53}%
+\contentsline {subsection}{\numberline {4.2.2}Beam Profile at Target}{43}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Position and Angular Resolution at Target}{44}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Charged Particle Identification}{45}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}FDC Calibration}{45}{subsection.4.3.1}%
+\contentsline {subsubsection}{The resolution of FDCs}{45}{section*.59}%
+\contentsline {subsubsection}{The efficiency of FDCs}{47}{section*.62}%
+\contentsline {subsection}{\numberline {4.3.2}Magnetic Rigidity}{47}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Time of Flight and Energy Loss}{48}{subsection.4.3.3}%
+\contentsline {subsubsection}{Time of Flight}{48}{section*.63}%
+\contentsline {subsubsection}{Energy Loss}{48}{section*.64}%
+\contentsline {subsection}{\numberline {4.3.4}Fragment Particle Identification}{48}{subsection.4.3.4}%
+\contentsline {section}{\numberline {4.4}Analysis of Neutrons}{50}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Selection of Real Neutron Events}{50}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Cross-talk Rejection}{51}{subsection.4.4.2}%
+\contentsline {subsubsection}{Clustering event}{51}{section*.68}%
+\contentsline {subsubsection}{same wall event}{52}{section*.70}%
+\contentsline {subsubsection}{different wall event}{53}{section*.72}%
+\contentsline {subsection}{\numberline {4.4.3}Cross-talk Residual Rate}{54}{subsection.4.4.3}%
+\contentsline {section}{\numberline {4.5}Acceptance and Efficiency Correction}{55}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Relative Energy Spectrum}{57}{section.4.6}%
+\contentsline {chapter}{\numberline {5}Result and Discussion}{61}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Inclusive Cross Section}{61}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Coulomb Dissociation Cross Section}{62}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Reduced E1 Transition Probability}{65}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Dineutron Correlation}{66}{section.5.4}%
+\contentsline {chapter}{\numberline {6}Conclusion}{69}{chapter.6}%
+\contentsline {chapter}{\numberline {A}Energy Loss Calculation}{71}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Material Between F7 to Target}{71}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Energy Loss Calculation for Secondary Beam Particle}{74}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Momentum Push-back Calculation for Charged Fragment Particle}{75}{section.A.3}%
+\contentsline {chapter}{\numberline {B}Intrinsic Resolution of Drift Chambers}{77}{appendix.B}%
+\contentsline {section}{\numberline {B.1}One-dimensional Tracking}{77}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Error Propagation}{78}{section.B.2}%
+\contentsline {section}{\numberline {B.3}Resolution and Residual Distribution}{78}{section.B.3}%
+\contentsline {section}{\numberline {B.4}Resolution Evaluation from One-dimensional Tracking}{79}{section.B.4}%
+\contentsline {subsection}{\numberline {B.4.1}X and Y plane of BDCs}{79}{subsection.B.4.1}%
+\contentsline {subsection}{\numberline {B.4.2}X plane of FDCs}{80}{subsection.B.4.2}%
+\contentsline {section}{\numberline {B.5}X-U-V plane Tracking}{80}{section.B.5}%
+\contentsline {section}{\numberline {B.6}Resolution Evaluation from X-U-V plane Tracking}{82}{section.B.6}%
+\contentsline {subsection}{\numberline {B.6.1}FDCs}{82}{subsection.B.6.1}%
+\contentsline {chapter}{Bibliography}{83}{appendix*.102}%
